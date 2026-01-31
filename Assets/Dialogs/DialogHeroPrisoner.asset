@@ -13,23 +13,13 @@ MonoBehaviour:
   m_Name: DialogHeroPrisoner
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableDialog
   dialogIDs:
-  - F3_Au_01
-  - F3_PR_01_01
-  - F3_PR_01_02
-  - F3_Au_02
-  - F3_PR_02
-  - F3_Au_03
-  - F3_PR_03_01
-  - F3_PR_03_02
-  - F3_PR_03_03
-  - F3_Au_04
-  - F3_PR_04_01
-  - F3_PR_04_02
-  - F3_Au_05
-  - F3_PR_05
-  - F3_PR_05
-  - F3_Au_06
-  - F3_PR_06_01
-  - F3_PR_06_02
-  - F3_Au_07
-  - 'F3_PR_07 '
+  - 'F1_Pr_01 '
+  - 'F1_H_01_01 '
+  - F1_H_01_02
+  - 'F1_Pr_02 '
+  - 'F1_H_02 '
+  - 'F1_Pr_03_01 '
+  - 'F1_Pr_03_02 '
+  - 'F1_H_03 '
+  - 'F1_Pr_04 '
+  - 'F1_H_04 '

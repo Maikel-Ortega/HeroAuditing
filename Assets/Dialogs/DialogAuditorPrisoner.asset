@@ -13,23 +13,25 @@ MonoBehaviour:
   m_Name: DialogAuditorPrisoner
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableDialog
   dialogIDs:
-  - F3_Au_01
-  - F3_PR_01_01
-  - F3_PR_01_02
-  - F3_Au_02
-  - F3_PR_02
-  - F3_Au_03
-  - F3_PR_03_01
-  - F3_PR_03_02
-  - F3_PR_03_03
-  - F3_Au_04
-  - F3_PR_04_01
-  - F3_PR_04_02
-  - F3_Au_05
-  - F3_PR_05
-  - F3_PR_05
-  - F3_Au_06
-  - F3_PR_06_01
+  - 'F3_AU_01_01 '
+  - 'F3_AU_01_02 '
+  - 'F3_PR_01_01 '
+  - 'F3_PR_01_02 '
+  - 'F3_AU_02 '
+  - 'F3_PR_02_01 '
+  - 'F3_PR_02_02 '
+  - 'F3_AU_03 '
+  - 'F3_PR_03_01 '
+  - 'F3_PR_03_02 '
+  - 'F3_PR_03_03 '
+  - 'F3_PR_03_03 '
+  - 'F3_AU_04 '
+  - 'F3_PR_04_01 '
+  - 'F3_PR_04_02 '
+  - 'F3_AU_05 '
+  - 'F3_PR_05 '
+  - 'F3_AU_06 '
+  - 'F3_PR_06_01 '
   - F3_PR_06_02
-  - F3_Au_07
+  - 'F3_AU_07 '
   - 'F3_PR_07 '
