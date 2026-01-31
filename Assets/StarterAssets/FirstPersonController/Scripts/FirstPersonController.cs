@@ -49,6 +49,9 @@ namespace StarterAssets
 		[Tooltip("How far in degrees can you move the camera down")]
 		public float BottomClamp = -90.0f;
 
+		[Header("Hero")]
+		public WeaponController weaponController;
+
 		// cinemachine
 		private float _cinemachineTargetPitch;
 
@@ -131,6 +134,7 @@ namespace StarterAssets
             if(_input.mainAction)
 			{
 				Debug.Log("HeroUpdate: Attack!");
+				weaponController.Attack();
                 _input.mainAction= false;
 
             }
