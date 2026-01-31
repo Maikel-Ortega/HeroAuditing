@@ -3,6 +3,15 @@ using UnityEngine;
 
 public class GameUI : MonoBehaviour
 {
+    public static GameUI Instance { get; private set; }
+
+    bool interludeFinished;
+
+    void Awake()
+    {
+        Instance = this;
+    }
+
     void Start()
     {
         // StartCoroutine(ShowMission());
@@ -27,4 +36,34 @@ public class GameUI : MonoBehaviour
 
         yield return null;
     }
+
+    public void ShowInterludeUI()
+    {
+        transform.Find("TransitionUI").gameObject.SetActive(true);
+        transform.Find("TransitionUI/Intermission").gameObject.SetActive(true);
+        transform.Find("TransitionUI/Document").gameObject.SetActive(false);
+        Cursor.lockState = CursorLockMode.None;
+    }
+
+    public void ShowDocumentUI()
+    {
+        transform.Find("TransitionUI").gameObject.SetActive(true);
+        transform.Find("TransitionUI/Intermission").gameObject.SetActive(false);
+        transform.Find("TransitionUI/Document").gameObject.SetActive(true);
+    }
+
+    public void EndInterlude()
+    {
+        transform.Find("TransitionUI").gameObject.SetActive(false);
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.lockState = CursorLockMode.Locked;
+
+        interludeFinished = true;
+    }
+
+    public bool HasInterludeEnded()
+    {
+        return interludeFinished;
+    }
+
 }

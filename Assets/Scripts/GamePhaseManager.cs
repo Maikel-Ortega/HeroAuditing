@@ -211,14 +211,15 @@ public class GameFSM
     {
         public override void OnEnter(GameFSM fsm)
         {
-
+            GameUI.Instance.ShowInterludeUI();
         }
 
         public override void OnUpdate(GameFSM fsm, float deltaTime)
         {
             base.OnUpdate(fsm, deltaTime);
 
-            // fsm.ChangeState(fsm.owner.st_Auditor);
+            if (GameUI.Instance.HasInterludeEnded())
+                fsm.ChangeState(fsm.owner.st_Auditor);
         }
 
         public override void OnExit(GameFSM fsm)
