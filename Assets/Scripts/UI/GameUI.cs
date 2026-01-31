@@ -5,7 +5,7 @@ public class GameUI : MonoBehaviour
 {
     void Start()
     {
-        StartCoroutine(ShowMission());
+        // StartCoroutine(ShowMission());
     }
 
     IEnumerator ShowMission()
