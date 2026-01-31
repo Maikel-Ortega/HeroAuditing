@@ -1,0 +1,64 @@
+ID,VALUE
+TEST_02,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+DETECTIVE_NAME,Sardinio S. Peto
+NPC_WANDA_NAME,Young lady
+NPC_WANDA_DIALOG,"""I came here looking for a note -from an admirer, most likely- that I missplaced -before reading, mind you- and can you believe it? I found this horror! \n{Anchovia} might have been the eldest, but I always thought she would outlive us all. She was SO resilient. \nPoor {Cody}, though. He was a sensitive soul."""
+NPC_WANDA_NOTE_NAME,Prickled note
+NPC_WANDA_NOTE_TEXT,"A note written in {green ink}, caught by her pins. Thanks to my keen detective sight I'm able to spy a look. ""Dear sister, lets forget our differences. I've found the hidden safe. Come to the room and you will see. Wait in front when the clock calls for midnight, I'll bring the combination."""
+NPC_WANDA_BAG_NAME,Bag
+NPC_WANDA_BAG_TEXT,"""Property of {Wanda} {McPuffin}"""
+NPC_CORPSES_NAME,Gruesome sight
+NPC_CORPSES_DAUGHTER_NAME,Corpse
+NPC_CORPSES_DAUGHTER_TEXT,She's covered in prickly {wounds}. They look like those caused by needles or pins... Or a {fight} with a sea urchin. There are also old scars in the midst.
+NPC_CORPSES_BLOOD_NAME,Blood
+NPC_CORPSES_BLOOD_TEXT,There's quite a bit of blood. By the shape of the splatters I can infer they were closer to that {armor} niche before falling to the floor.
+NPC_CORPSES_INK_NAME,Green smudges
+NPC_CORPSES_INK_TEXT,Looks like {green ink} to me.
+NPC_CORPSES_FIN_NAME,Fin
+NPC_CORPSES_FIN_TEXT,It looks like she died while {wrestling} with the other victim. Or maybe {protecting} him.
+NPC_CORPSES_SPEAR_NAME,Weapon
+NPC_CORPSES_SPEAR_TEXT,"Its a {spear}, shaped a bit like a {harpoon}. An antique, a remnant of darker times. "
+NPC_CORPSES_SON_NAME,Another Corpse
+NPC_CORPSES_SON_TEXT,"A shame, he did cultivate a beautiful blonde tache. "
+NPC_BUTLER_NAME,Butler
+NPC_BUTLER_DIALOG,"""I heard Miss {Anchovia} yelling a warning, and ran downstairs to find this gruesome scene!\n Poor lords. And I thought {Cody} had plans for tonight! \nThe passing of her {siblings} means that Miss {Wanda} will {inherit} the family {fortune}."""
+NPC_BUTLER_TATTOO_NAME,Prison tattoo
+NPC_BUTLER_TATTOO_TEXT,"""That looks like ink from the clink to me, Mr..."" I said. \n""{Octavius}"" he replies. \n""You're right. I had itchy tentacles back then, would {steal} anything not nailed to the walls. Served my time in Gillmarsh."""
+NPC_BUTLER_TEACUP_NAME,Moustache cup
+NPC_BUTLER_TEACUP_TEXT,"This teacup features a prominent moustache guard, as for protect one's whiskers from the perils of moisture. ""It belonged to the middle son, Mr {McPuffin}""."
+NPC_HERRING_NAME,Sailor
+NPC_HERRING_DIALOG,"""My name is {Scarlet} {Herrington} and I didn't {kill} anyone! I was here on business, to {retrieve} something of my property. \nThey were good lads, the hatchlings, always cared for each other. I would never harm them."""
+NPC_HERRING_ARMS_NAME,Brawny arms
+NPC_HERRING_ARMS_TEXT,"This gentleman, while not {young} by any definition of the word, still exhibits a most {formidable strength} of arm. "
+NPC_HERRING_HARPOON_NAME,Pointy stick
+NPC_HERRING_HARPOON_TEXT,"A whaling {harpoon}. ""It was a gift for the late Lord"" he says. He carry that thing with the ease bestowed only by decades of experience."
+HINT_CANVAS_NAME,Canvas-covered lump
+HINT_CANNON_NAME,Strange artifact
+HINT_CANNON_TEXT,"A {harpoon} {cannon}, no doubt. These devices endured great usage during the dark times of the Great Whalian War. Fishy..."
+HINT_CANVAS_ROPE_NAME,Loose rope
+HINT_CANVAS_ROPE_TEXT,"This artifact shows signs of manipulation, and traces of {green ink}. With a {rope} like this, and some imagination, anyone could have primed it to shoot by itself after some time."
+HINT_NOTE_NAME,Note
+HINT_NOTE_TEXT,"""Dear {friend}, I found this on a shipwreck. A veritable antique. Give it a look and we'll talk {money} next week, if it suits your interest."""
+HINT_ARMORPIECES_NAME,Concerning disarray
+HINT_ARMORPIECES_TEXT,"Pieces of vintage {armor}, in shambles. The chest-piece shows a conical depression. It seems like something was very close to {piercing} through the metal."
+HINT_PAINTING_NAME,Painting
+HINT_LORDPAINT_NAME,Dashing lord
+HINT_LORDPAINT_TEXT,I find myself in awe at the size of those moustaches. What an absolute gentleman.
+HINT_LADYPAINT_NAME,Beautiful damsel
+HINT_LADYPAINT_TEXT,A most proper lady. 
+HINT_PLAQUE_NAME,Plaque
+HINT_PLAQUE_TEXT,"""{Sir Pinneas} {McPuffin} and Lady {Deene} {McPuffin}""."
+HINT_LADDER_NAME,Ladder
+HINT_LADDER_TEXT,"A {ladder}, one of the earliest answers of piscianity against the perils of gravity. Definitely not a stepladder."
+HINT_SAFE_NAME,Safe
+HINT_SAFE_TEXT,"This {safe} has been placed at {great height}. Hardly convenient, as a {fall} could prove deadly from up there."
+HINT_TICKET_NAME,Ticket
+HINT_TICKET_TEXT,"A single ticket for the opera ""The Barbel of Seville"", starring Monserrat Caballa as prima pescata. The jacket features an embroidering name: ""C. {McPuffin}""."
+HINT_RADIO_NAME,Radio
+HINT_RADIO_TEXT,"The radio is on. They talk about famous singer Monserrat Caballa, who had to cancel all her perfomances after catching a terrible {cold}."
+HINT_RUG_NAME,Manta rug
+HINT_RUG_TEXT,"Aunt Samanta! Ah, wait, its not her. Thank cod. "
+HINT_DESK_NAME,Pile of letters
+HINT_DESK_TEXT,"Most of them are ledgers, taxes or otherwise unrelated codespondence. One letter, unsigned, looks interesting. ""Dad, I cannot suffer her abuse any longer. She attacked me last week, as she used to when we were younger. I beg of you, help me get away from her. If you won't, Cod help me, I will do it myself."""
+HINT_FRAME_NAME,Painting
+HINT_FRAME_TEXT,"A painting of four seahorses playing poker. Dust has settled on top of the frame, but there are hints of finprints on the sides. It was moved recently."
