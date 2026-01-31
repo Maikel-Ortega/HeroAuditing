@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: DialogAuditorGoblin
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableDialog
   dialogIDs:
-  - 'F3_Grub01_01 '
-  - 'F3_Grub01_02 '
-  - 'F3_Grub01_03 '
-  - 'F3_Au01 '
+  - F3_Grub01_01
+  - F3_Grub01_02
+  - F3_Grub01_03
+  - F3_Au01
   - F3_Grub02
   - F3_Au02
   - F3_Grub03_01
