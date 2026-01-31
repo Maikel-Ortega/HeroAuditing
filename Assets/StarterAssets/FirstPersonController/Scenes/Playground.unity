@@ -130,8 +130,9 @@ GameObject:
   - component: {fileID: 149500608}
   - component: {fileID: 149500607}
   - component: {fileID: 149500606}
+  - component: {fileID: 149500609}
   m_Layer: 0
-  m_Name: GoblinEnemy
+  m_Name: GoblinEnemy01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -149,6 +150,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc5b04ade2699894a882c74f577cddf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  MAX_HP: 1
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 149500607}
+        m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+        m_MethodName: OnDeath
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnDamaged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &149500607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,7 +181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e022ef4e7c05c646b1169c05eaafe91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  entityData: {fileID: 0}
+  entityData: {fileID: 149500609}
 --- !u!4 &149500608
 Transform:
   m_ObjectHideFlags: 0
@@ -177,6 +197,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &149500609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149500605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 816114f8bae609447a02036b6436393d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameEntityDataComponent
+  id: {fileID: 11400000, guid: 919b8e08a072a8a42b9aaf4fd5303d78, type: 2}
 --- !u!1 &542508511
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,6 +679,143 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2114283753834967213}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1097109534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1097109536}
+  - component: {fileID: 1097109537}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1097109536
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097109534}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.67722, y: 5.37405, z: 7.67722}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1097109537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097109534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57dfaa6fd0c628448fa8f4a41e9da7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  gameEntities: []
+  testGameStateSO: {fileID: 11400000, guid: 520a794a8416d014cafbeed874592c64, type: 2}
+--- !u!1 &1608443475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1608443479}
+  - component: {fileID: 1608443478}
+  - component: {fileID: 1608443477}
+  - component: {fileID: 1608443476}
+  m_Layer: 0
+  m_Name: GoblinEnemy02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1608443476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608443475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 816114f8bae609447a02036b6436393d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameEntityDataComponent
+  id: {fileID: 11400000, guid: d3d623e0a21b6894cb860a832d208517, type: 2}
+--- !u!114 &1608443477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608443475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc5b04ade2699894a882c74f577cddf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  MAX_HP: 1
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1608443478}
+        m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+        m_MethodName: OnDeath
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1608443478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608443475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e022ef4e7c05c646b1169c05eaafe91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  entityData: {fileID: 1608443476}
+--- !u!4 &1608443479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608443475}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.67722, y: 5.37405, z: 7.67722}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1764214107
 GameObject:
@@ -1287,3 +1457,5 @@ SceneRoots:
   - {fileID: 1979352518}
   - {fileID: 746329221}
   - {fileID: 149500608}
+  - {fileID: 1608443479}
+  - {fileID: 1097109536}
