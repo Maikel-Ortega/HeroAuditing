@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4012346229486865297}
   - component: {fileID: 1846257184323129855}
   - component: {fileID: 5856508561626864635}
-  - component: {fileID: 1692203487671015714}
   m_Layer: 0
   m_Name: PREFAB_Dungeon_Wall_Base
   m_TagString: Untagged
@@ -90,26 +89,4 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5512182279059685765}
-  m_Mesh: {fileID: 4300000, guid: 290102ffde787e74ead8e81b7b7d2aa5, type: 2}
---- !u!64 &1692203487671015714
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5512182279059685765}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 290102ffde787e74ead8e81b7b7d2aa5, type: 2}
