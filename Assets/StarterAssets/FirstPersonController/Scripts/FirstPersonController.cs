@@ -6,9 +6,7 @@ using UnityEngine.InputSystem;
 namespace StarterAssets
 {
 	[RequireComponent(typeof(CharacterController))]
-#if ENABLE_INPUT_SYSTEM
-	[RequireComponent(typeof(PlayerInput))]
-#endif
+
 	public class FirstPersonController : MonoBehaviour
 	{
 		[Header("Player")]
@@ -64,6 +62,9 @@ namespace StarterAssets
 		private float _jumpTimeoutDelta;
 		private float _fallTimeoutDelta;
 
+		public enum PLAYER_TYPE {HERO, AUDITOR}
+		public PLAYER_TYPE playerType;	
+
 	
 #if ENABLE_INPUT_SYSTEM
 		private PlayerInput _playerInput;
@@ -98,9 +99,9 @@ namespace StarterAssets
 		private void Start()
 		{
 			_controller = GetComponent<CharacterController>();
-			_input = GetComponent<StarterAssetsInputs>();
+			_input = FindAnyObjectByType<StarterAssetsInputs>();
 #if ENABLE_INPUT_SYSTEM
-			_playerInput = GetComponent<PlayerInput>();
+			_playerInput = FindAnyObjectByType<PlayerInput>();
 #else
 			Debug.LogError( "Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");
 #endif
@@ -115,7 +116,46 @@ namespace StarterAssets
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
+			if (playerType == PLAYER_TYPE.HERO)
+			{
+				HeroUpdate();
+			}
+			else 
+			{
+				AuditorUpdate();
+			}
 		}
+
+		private void HeroUpdate()
+		{
+            if(_input.mainAction)
+			{
+				Debug.Log("HeroUpdate: Attack!");
+                _input.mainAction= false;
+
+            }
+            if (_input.interact)
+            {
+                Debug.Log("HeroUpdate:Try interact!");
+                _input.interact = false;
+
+            }
+        }
+
+		private void AuditorUpdate()
+		{
+            if (_input.mainAction)
+            {
+                Debug.Log("AuditorUpdate: Mark contradiction!");
+                _input.mainAction= false;
+            }
+
+            if (_input.interact)
+            {
+                Debug.Log("AuditorUpdate:Try interact!");
+                _input.interact = false;
+            }
+        }
 
 		private void LateUpdate()
 		{

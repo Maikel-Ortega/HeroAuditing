@@ -11,7 +11,9 @@ namespace StarterAssets
 		public Vector2 move;
 		public Vector2 look;
 		public bool jump;
-		public bool sprint;
+        public bool mainAction;
+        public bool interact;
+        public bool sprint;
 
 		[Header("Movement Settings")]
 		public bool analogMovement;
@@ -39,7 +41,17 @@ namespace StarterAssets
 			JumpInput(value.isPressed);
 		}
 
-		public void OnSprint(InputValue value)
+        public void OnMainAction(InputValue value)
+        {
+            MainActionInput(value.isPressed);
+        }
+
+        public void OnInteract(InputValue value)
+        {
+            IntaractInput(value.isPressed);
+        }
+
+        public void OnSprint(InputValue value)
 		{
 			SprintInput(value.isPressed);
 		}
@@ -61,7 +73,16 @@ namespace StarterAssets
 			jump = newJumpState;
 		}
 
-		public void SprintInput(bool newSprintState)
+        public void MainActionInput(bool newMainAction)
+        {
+            mainAction = newMainAction;
+        }
+
+        public void IntaractInput(bool newJumpState)
+        {
+            interact = newJumpState;
+        }
+        public void SprintInput(bool newSprintState)
 		{
 			sprint = newSprintState;
 		}

@@ -11,7 +11,8 @@ public class GamePhaseManager : MonoBehaviour
     public GameFSM fsm;
 
     public GameObject heroGameObject;
-    public GameObject auditorGameObject;    
+    public GameObject auditorGameObject;
+    public GameObject resolutionPanelGameObject;
 
     private void Start()
     {
@@ -145,6 +146,7 @@ public class GameFSM
         {
             base.OnEnter(fsm);
             Debug.Log("Start Resolution Phase");
+            fsm.owner.resolutionPanelGameObject.SetActive(true); 
 
         }
 
@@ -160,6 +162,8 @@ public class GameFSM
         public override void OnExit(GameFSM fsm)
         {
             base.OnExit(fsm);
+
+            fsm.owner.resolutionPanelGameObject.SetActive(false);
         }
     }
 
