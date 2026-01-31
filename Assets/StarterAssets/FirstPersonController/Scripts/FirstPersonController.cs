@@ -51,9 +51,15 @@ namespace StarterAssets
 
 		[Header("Hero")]
 		public WeaponController weaponController;
+		public Animator animator;
+		public const string ANIM_TRIGGER_ATTACK = "ATTACK";
 
-		// cinemachine
-		private float _cinemachineTargetPitch;
+
+		[Header("Auditor")]
+		public ContradictionAbility contradictionAbility;
+
+        // cinemachine
+        private float _cinemachineTargetPitch;
 
 		// player
 		private float _speed;
@@ -134,7 +140,11 @@ namespace StarterAssets
             if(_input.mainAction)
 			{
 				Debug.Log("HeroUpdate: Attack!");
-				weaponController.Attack();
+				if(!weaponController.isAttacking)
+				{
+					weaponController.Attack();
+					animator.SetTrigger(ANIM_TRIGGER_ATTACK);
+				}
                 _input.mainAction= false;
 
             }
@@ -151,6 +161,7 @@ namespace StarterAssets
             if (_input.mainAction)
             {
                 Debug.Log("AuditorUpdate: Mark contradiction!");
+				contradictionAbility.Execute();
                 _input.mainAction= false;
             }
 
