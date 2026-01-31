@@ -165,6 +165,7 @@ public class GameFSM
             base.OnUpdate(fsm, deltaTime);
             if (Input.GetKeyDown(KeyCode.X))
             {
+                // fsm.owner.auditorGameObject.SetActive(false);
                 fsm.owner.EndAuditorPhase();
             }
 
@@ -186,8 +187,9 @@ public class GameFSM
             base.OnEnter(fsm);
             Debug.Log("Start Resolution Phase");
             fsm.owner.DoCalculateScore();
-            fsm.owner.resolutionPanelGameObject.SetActive(true); 
+            fsm.owner.resolutionPanelGameObject.SetActive(true);
 
+            Cursor.lockState = CursorLockMode.None;
         }
 
         public override void OnUpdate(GameFSM fsm, float deltaTime)
