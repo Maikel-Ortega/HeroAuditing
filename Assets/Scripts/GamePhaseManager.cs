@@ -8,6 +8,7 @@ public class GamePhaseManager : MonoBehaviour
 {
 
     public GameST_Hero st_Hero = new GameST_Hero();
+    public GameST_Interlude st_Interlude = new GameST_Interlude();
     public GameST_Auditor st_Auditor = new GameST_Auditor();
     public GameST_Resolution st_Resolution = new GameST_Resolution();
     public GameFSM fsm;
@@ -28,7 +29,7 @@ public class GamePhaseManager : MonoBehaviour
 
     public void EndHeroPhase()
     {
-        fsm.ChangeState(st_Auditor);
+        fsm.ChangeState(st_Interlude);
     }
 
     public void EndAuditorPhase()
@@ -206,5 +207,24 @@ public class GameFSM
         }
     }
 
+    public class GameST_Interlude : GameFSMState
+    {
+        public override void OnEnter(GameFSM fsm)
+        {
+
+        }
+
+        public override void OnUpdate(GameFSM fsm, float deltaTime)
+        {
+            base.OnUpdate(fsm, deltaTime);
+
+            // fsm.ChangeState(fsm.owner.st_Auditor);
+        }
+
+        public override void OnExit(GameFSM fsm)
+        {
+            base.OnExit(fsm);
+        }
+    }
     #endregion
 }

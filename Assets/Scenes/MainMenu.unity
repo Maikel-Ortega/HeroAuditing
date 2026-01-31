@@ -843,10 +843,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1837842969}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -35.2758, y: -56.496597}
-  m_SizeDelta: {x: 1406.675, y: 708.8885}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -35.275787, y: -56.496597}
+  m_SizeDelta: {x: -513.32495, y: -371.1115}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &829897415
 MonoBehaviour:
@@ -868,12 +868,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Intro text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-    sunt in culpa qui officia deserunt mollit anim id est laborum
+  m_text: "Hundreds of years ago, it is said that a great wizard condensed all his
+    power into a magic scepter, which he bequeathed to his king, the King of Draisebia,
+    entrusting him with his magic. However, this scepter was lost in a war against
+    the goblins, who stole it during an assault on the royal palace. It is said that
+    they took it to the deepest part of a dungeon, where no one could ever find it
+    again. Their king, the Goblin King, now wields it\u2026 But the scepter awaited
+    the arrival of a great hero to rescue it and return it to its rightful place\u2026
+    Until today."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -968,7 +970,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &875859677
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1121,7 +1123,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1837842969
 RectTransform:
   m_ObjectHideFlags: 0

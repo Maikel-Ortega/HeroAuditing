@@ -27,7 +27,8 @@ public class Hitbox : MonoBehaviour
             foreach (var item in hurtBoxes)
             {
                 Debug.Log($"Hitbox hits: Hurtbox={item}");
-                item.damageable.Damage(damageData.dmgAmount);
+                if (item.transform.root.gameObject != transform.root.gameObject) // cant hurt itself
+                    item.damageable.Damage(damageData.dmgAmount);
             }
         }
     }
