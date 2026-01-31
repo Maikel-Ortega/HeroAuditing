@@ -25,7 +25,6 @@ public class WeaponController : MonoBehaviour
 
     IEnumerator AttackCoroutine()
     {
-        Debug.Log("START ATTACK COROUTINE");
         isAttacking = true;
         yield return new WaitForSeconds(anticipationDelay);
 
@@ -43,7 +42,5 @@ public class WeaponController : MonoBehaviour
         yield return new WaitForSeconds(recoverySeconds);
 
         isAttacking = false;
-
-        Debug.Log("END ATTACK COROUTINE");
     }
 }
