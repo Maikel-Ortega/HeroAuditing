@@ -10,7 +10,8 @@ public class Enemy : MonoBehaviour, IContradictionItem
         IDLE,
         CHASING,
         ATTACK,
-        DEAD
+        DEAD,
+        DIALOGUE
     }
 
     public GameEntityDataComponent entityData;
@@ -113,5 +114,12 @@ public class Enemy : MonoBehaviour, IContradictionItem
     public ScriptableID GetId()
     {
         return entityData.id;
+    }
+
+    public void SetDialogueState()
+    {
+        currentState = GoblinState.DIALOGUE;
+        agent.isStopped = true;
+        animator.SetFloat("Movement", 0);
     }
 }

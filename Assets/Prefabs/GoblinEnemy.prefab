@@ -320,7 +320,7 @@ MonoBehaviour:
   deadGraphics: {fileID: 4738559156372889844}
   activationDistance: 15
   attackDistance: 2.5
-  moveSpeed: 0
+  moveSpeed: 1.5
 --- !u!114 &4076228477682355287
 MonoBehaviour:
   m_ObjectHideFlags: 0
