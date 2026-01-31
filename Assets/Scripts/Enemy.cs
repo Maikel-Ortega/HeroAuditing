@@ -75,6 +75,7 @@ public class Enemy : MonoBehaviour, IContradictionItem
             {
                 currentState =  GoblinState.CHASING;
                 agent.isStopped = false;
+                animator.SetFloat("Movement", 1);
             }
         }
         if(currentState == GoblinState.CHASING)
@@ -86,12 +87,15 @@ public class Enemy : MonoBehaviour, IContradictionItem
                 agent.isStopped = true;
                 weaponController.Attack();
                 animator.SetTrigger("Attack");
+                animator.SetFloat("Movement", 0);
             }
         }
         if(currentState == GoblinState.ATTACK)
         {
             if (weaponController.isAttacking == false)
+            {
                 currentState = GoblinState.IDLE;
+            }
         }
     }
 }
