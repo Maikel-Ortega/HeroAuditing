@@ -58,6 +58,12 @@ public class GamePhaseManager : MonoBehaviour
         }
         return differences;
     }
+
+    public void DoCalculateScore()
+    {
+        GameObject.FindAnyObjectByType<ScoreManager>().CalculateScore();
+    }
+    
 }
 
 public class GameFSM
@@ -144,17 +150,27 @@ public class GameFSM
             fsm.owner.auditorGameObject.SetActive(true);
 
             fsm.owner.MakeRandomChanges();
+
+            // Desactivar todos los goblins vivos
+            foreach(var gob in GameObject.FindObjectsByType<Enemy>(FindObjectsSortMode.InstanceID))
+            {
+                if (gob.entityData.blackboard.GetBool("ALIVE"))
+                    gob.SetDialogueState(); 
+            }
         }
 
         public override void OnUpdate(GameFSM fsm, float deltaTime)
         {
             base.OnUpdate(fsm, deltaTime);
-            if (Input.GetKeyDown(KeyCode.Alpha2))
+            if (Input.GetKeyDown(KeyCode.X))
             {
                 fsm.owner.EndAuditorPhase();
             }
 
         }
+
+
+
 
         public override void OnExit(GameFSM fsm)
         {
@@ -168,6 +184,7 @@ public class GameFSM
         {
             base.OnEnter(fsm);
             Debug.Log("Start Resolution Phase");
+            fsm.owner.DoCalculateScore();
             fsm.owner.resolutionPanelGameObject.SetActive(true); 
 
         }

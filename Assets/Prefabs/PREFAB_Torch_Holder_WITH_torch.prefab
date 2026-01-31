@@ -40,7 +40,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6438707229336109850}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 0.5287268, b: 0, a: 1}
@@ -83,7 +83,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
@@ -137,7 +137,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1462901604744018807, guid: 5947776b37b65cf4da1cb66542322b39, type: 3}
       propertyPath: m_Name
-      value: PREFAB_Torch_Holder Variant
+      value: PREFAB_Torch_Holder_WITH_torch
       objectReference: {fileID: 0}
     - target: {fileID: 1462901604744018807, guid: 5947776b37b65cf4da1cb66542322b39, type: 3}
       propertyPath: m_StaticEditorFlags
