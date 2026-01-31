@@ -13,36 +13,422 @@ MonoBehaviour:
   m_Name: MasterTextAsset
   m_EditorClassIdentifier: Assembly-CSharp::TextParser
   parsedTexts:
+  - key: F1_HIntro_01
+    text: "HEROE: Por fin llegu\xE9 a la Cripta del Goblin Maldito."
+    englishText: 'HERO: At last I arrived at the Cript of the Cursed Goblin.'
+  - key: F1_HIntro_02
+    text: 'Sus puertas me recibieron como fauces abiertas '
+    englishText: ' Its gates greeted me like open jaws'
+  - key: F1_HIntro_03
+    text: y fui engullido por su perversa oscuridad
+    englishText: ' and I was gobbled by its wicked darkness'
+  - key: F1_Hspike_S01
+    text: "Salt\xE9 por encima del foso de pinchos sin recibir un solo rasgu\xF1o."
+    englishText: I jumped over the spike trap without getting no harm!
+  - key: F1_Hspike_S02
+    text: "\xA1Casi me caigo, pero por suerte reaccion\xE9 a tiempo!"
+    englishText: I almost fell, but luckily my catlike reflexes saved me just in
+      time!
+  - key: F1_Hspike_S03_01
+    text: 'En el foso me aguardaba la muerte, '
+    englishText: 'Death awaited me at the bottom of the ditch, '
+  - key: F1_Hspike_S03_02
+    text: "pero me asom\xE9 al abismo y le dije: hoy no."
+    englishText: 'but I look at the abism and said: not today'
+  - key: F1_Hspike_F01
+    text: "\xA1Cu\xE1l fue mi sorpresa cuando ca\xED en ese maldito foso!"
+    englishText: What was my surprise when I fell into that dreadful trap!
+  - key: F1_Hspike_F02
+    text: He de admitirlo, esos pinchazos no fueron precisamente agradables.
+    englishText: I must admit, those pricks were not nice at all
+  - key: F1_Hspike_F03
+    text: "\xA1A\xFAn tengo las marcas en la armadura!"
+    englishText: I still have marks on my armour!
+  - key: F1_Hpen_S01
+    text: "Pas\xE9 raudo y veloz por las cuchillas, sin que me rozasen."
+    englishText: I run through the knives as swiftly as the wind without they even
+      got to touch me!
+  - key: F1_Hpen_S02_01
+    text: 'Ese baile de cuchillas era letal, '
+    englishText: "Knives danced right in front of my eyes\u2026 "
+  - key: F1_Hpen_S02_02
+    text: "pero no hay mejor bailar\xEDn que yo."
+    englishText: 'But there''s no better dancer than me. '
+  - key: F1_Hpen_S03_01
+    text: "No mentir\xE9, sent\xED miedo\u2026 "
+    englishText: "I will not lie, I was afraid\u2026 "
+  - key: F1_Hpen_S03_02
+    text: miedo de aburrirme con estas trampas tan pueriles.
+    englishText: Afraid of getting bored with such a childlish trap
+  - key: F1_Hpen_F01_01
+    text: "Pens\xE9 que era r\xE1pido, "
+    englishText: I thought I was fast, but knives were faster
+  - key: F1_Hpen_F01_02
+    text: "pero las cuchillas lo fueron m\xE1s."
+    englishText: 
+  - key: F1_Hpen_F02
+    text: "Cuando dec\xEDa que necesitaba un corte no me refer\xEDa a esto."
+    englishText: 'When I''d said I wanted a cut, I didn''t mean  this one '
+  - key: F1_Hpen_F03
+    text: Fue una caricia, una caricia dolorosa.
+    englishText: "I felt it like a caress on my skin\u2026 Well, a painful one"
+  - key: F1_Harrow_S01
+    text: "Ni las flechas m\xE1s certeras pudieron pararme"
+    englishText: Not even the best-aimed arrows could stop me
+  - key: F1_Harrow_S02
+    text: "Atraves\xE9 la trampa sin recibir da\xF1o"
+    englishText: I went through the trap without getting any harm
+  - key: F1_Harrow_S03
+    text: "Las \xFAnicas flechas que no soy capaz de esquivar son las de Cupido"
+    englishText: They only arrows I am not able to avoid are Cupid's ones
+  - key: F1_Harrow_F01
+    text: "Vale, alguna que otra me pinch\xF3"
+    englishText: Okay, maybe one or two hit me
+  - key: F1_Harrow_F02
+    text: "\xA1Las muescas de mi armadura hablan por m\xED!"
+    englishText: Slots on my armour speak for me!
+  - key: F1_Harrow_F03
+    text: "La humillaci\xF3n es la m\xE1s venenosa de las flechas"
+    englishText: Humilliation is the most poisonous of arrows
+  - key: F1_Hslime_S01
+    text: Prefiero que me lluevan los elogios, gracias.
+    englishText: I prefer to be showered with praise, thank you.
+  - key: F1_Hslime_S02
+    text: "Ni siquiera me roz\xF3."
+    englishText: That does not even touched me.
+  - key: F1_Hslime_S03
+    text: "Un h\xE9roe nunca tiene miedo a mancharse un poco."
+    englishText: A hero is never afraid to get a little dirty
+  - key: F1_Hslime_F01
+    text: "\xA1Estas manchas de slime no salen con nada!."
+    englishText: Those damn slime stains won't come out, I know
+  - key: F1_Hslime_F02
+    text: "Decir que sent\xED asco se quedar\xEDa corto."
+    englishText: To say I felt nauseous would fall short
+  - key: F1_Hslime_F03
+    text: "A\xFAn me estoy sacando slime de la ropa interior."
+    englishText: I am still removing slime from my underwear
+  - key: F1_HChest_01
+    text: "La curiosidad de saber qu\xE9 albergaba en su interior me pudo."
+    englishText: The curiosity of knowing what was inside was stronger than myself.
+  - key: F1_HChest_02
+    text: "\xBFLo que encontremos en un cofre nos lo podemos quedar o tenemos que
+      declararlo?."
+    englishText: Do we have to declare what we find inside a chest or do we get to
+      keep it?
+  - key: F1_HChest_03
+    text: Dejar este tesoro en esta mazmorra infecta hubiese sido un sacrilegio
+    englishText: Leave that treasure inside that foul dungeon would have been a sacrilege
+  - key: F1_Hpic_01
+    text: "Las viejas glorias del pasado tienen sus ojos puestos en m\xED"
+    englishText: Old glories from the past have their eyes on me
+  - key: F1_Hpic_02
+    text: "Despu\xE9s de esta haza\xF1a, quiz\xE1 yo sea el pr\xF3ximo protagonista
+      de un cuadro"
+    englishText: After this great feat, perhaps I'll be the next to be painted
+  - key: F1_Hpic_03
+    text: "Me sent\xEDa observado por sus vetustas miradas"
+    englishText: I felt observed by their ancient eyes
+  - key: F1_Hgob_S01
+    text: Morid, malditos
+    englishText: Die, you cowards!
+  - key: F1_Hgob_S02
+    text: "\xA1No sois rival para mi bravura!"
+    englishText: You are no rival to my bravery!
+  - key: F1_Hgob_S03
+    text: "\xA1Volved al infierno del que salisteis!"
+    englishText: Come back to hell you came from!
+  - key: F1_Hgob_F01
+    text: "No deb\xED subestimarlos."
+    englishText: I shouldn't have underestimated them.
+  - key: F1_Hgob_F02
+    text: A veces se me olvida lo escurridizos que son.
+    englishText: Sometimes I forget how slippery they are.
+  - key: F1_Hgob_F03
+    text: "Eso doli\xF3."
+    englishText: Ouch, that hurt.
+  - key: F1_Pr_01
+    text: "PRISIONERO: \xA1Eh! \xBFQu\xE9 pasa aqu\xED? \xBFT\xFA qui\xE9n eres?  "
+    englishText: 'PRISONER: Oi! wha''s thare? wha are ye?'
+  - key: F1_H_01_01
+    text: "H\xC9ROE: \xA1Saludos, amable prisionero! "
+    englishText: 'HERO: Greetings, friendly prisoner! '
+  - key: F1_H_01_02
+    text: "He venido a recorrer esta mazmorra y poner fin al malvado reino del terror
+      del rey Goblin que aqu\xED mora. "
+    englishText: 'I came to go down this dungeon and put an end to the reign of terror
+      of the Goblin king! '
+  - key: F1_H_01_03
+    text: "Dar\xE9 por finalizado su vil r\xE9gimen en cuanto mi hoja atraviese su\u2026"
+    englishText: "I will end up his evil regime the moment my sword\u2026"
+  - key: F1_Pr_02_01
+    text: "PRISIONERO: \xA1Que s\xED, que s\xED, que eres un h\xE9roe muy guay! \xA1Ya
+      era hora, eh! "
+    englishText: 'PRISONER: Ay, ay, we know, ye are a cool knicht! it wis aboot time,
+      huh! '
+  - key: F1_Pr_02_02
+    text: "Mucho discursito, mucho discursito, pero aqu\xED rescatar poquito, \xBFeh?  "
+    englishText: aw talk an na action, huh?
+  - key: F1_Pr_02_03
+    text: "Llevo siglos aqu\xED, rodeado de malolientes goblins. "
+    englishText: ' A''v been here for ages, surroundit bi pongy goblins. '
+  - key: F1_Pr_02_04
+    text: "En cuanto salga voy a poner una queja en el Departamento de Asuntos Heroicos\u2026"
+    englishText: 'The moment A put a foot ootside this dungeon, A am gaun''ae complaint
+      tae '
+  - key: F1_Pr_02_05
+    text: 
+    englishText: "the department o heroic affairs\u2026"
+  - key: F1_H_02
+    text: "H\xC9ROE: No se preocupe, voy a rescatarle y\u2026"
+    englishText: "HERO: Do not fear, I am going to take you out of this\u2026"
+  - key: F1_Pr_03_01
+    text: "PRISIONERO: Anda, vaya, meenos mal, el se\xF1orito ha venido a rescatarme,
+      qu\xE9 bien. "
+    englishText: 'PRISONER: Oh, wow, lucky me this knicht i shiny armour has decidit
+      tae rescue me. '
+  - key: F1_Pr_03_02
+    text: "Solo han tardado CINCUENTA A\xD1OS en enviarme a alguien, \xBFen esto
+      se van mis impuestos? Esto es indignante\u2026"
+    englishText: It  only took fifty years tae send someone. Is here where aw ma
+      taxes are gang? Outrageous!
+  - key: F1_H_03
+    text: "H\xC9ROE: Pero si he venido a\u2026"
+    englishText: "HERO: But I came here for\u2026"
+  - key: F1_Pr_04
+    text: "PRISIONERO:  No, si ya s\xE9 a lo que ha venido, a por el cetrito ese,
+      \xBFeh? "
+    englishText: 'PRISONER: A know exactly why ye came. Ye are here for thon wee
+      scepter, am A richt?'
+  - key: F1_H_04
+    text: "H\xC9ROE: S\xED, el cetro del Rey Ca\u2026"
+    englishText: "HERO: Yes, de scentre of the f\u2026"
+  - key: F1_Pr_05_01
+    text: "PRISIONERO: \xA1CABR\xD3N! \xBFQui\xE9n lo ha votado? "
+    englishText: 'PRISIONERO: '
+  - key: F1_Pr_05_02
+    text: "\xA1Yo desde luego no, que estaba aqu\xED!"
+    englishText: Wha votit for him? A surely didn't, A wis trappit here!!
+  - key: F1_H_05
+    text: "HERO: Mire, \xBFquiere que lo rescate o no?"
+    englishText: 'HERO: You want me to rescue you or not?'
+  - key: F1_Pr_06
+    text: 'PRISIONERO: Por favor y gracias.'
+    englishText: 'PRISIONER: Pretty please. Thank ye.'
   - key: F2_H01
-    text: "H\uFFFDROE: \uFFFD Y as\uFFFD fue como pas\uFFFD."
-    englishText: "HERO: \uFFFD and that's what it happened"
+    text: "H\xC9ROE: \u2026 Y as\xED fue como pas\xF3."
+    englishText: "HERO: \u2026 and that's what it happened"
   - key: F2_F01
-    text: "FUNCIONARIO: Ah\uFFFD Y as\uFFFD consigui\uFFFD el Scepter of the Fallen
+    text: "FUNCIONARIO: Ah\xE1\u2026 Y as\xED consigui\xF3 el Scepter of the Fallen
       King."
-    englishText: "EMPLOYEE: Aha\uFFFD That's how you got the Scepter of the Fallen
+    englishText: "EMPLOYEE: Aha\u2026 That's how you got the Scepter of the Fallen
       King."
   - key: F2_H02
-    text: "H\uFFFDROE: As\uFFFD es."
+    text: "H\xC9ROE: As\xED es."
     englishText: 'HERO: That''s right.'
   - key: F2_F02
-    text: "FUNCIONARIO: Y por eso viene a reclamar su licencia de h\uFFFDroe."
+    text: "FUNCIONARIO: Y por eso viene a reclamar su licencia de h\xE9roe."
     englishText: 'EMPLOYEE: And that is why you are here to claim for your hero licence.'
   - key: F2_H03
-    text: "H\uFFFDROE: Yep. "
+    text: "H\xC9ROE: Yep. "
     englishText: 'HERO: Yep.'
   - key: F2_F03
-    text: "FUNCIONARIO:  Recibir\uFFFD su licencia en un periodo de 2 a 3 lunas h\uFFFDbiles\uFFFD"
+    text: "FUNCIONARIO:  Recibir\xE1 su licencia en un periodo de 2 a 3 lunas h\xE1biles\u2026"
     englishText: "EMPLOYEE: Ok, you will receive your hero licence within two or
-      three business moons\uFFFD"
+      three business moons\u2026"
   - key: F2_H04
-    text: "H\uFFFDROE: \uFFFDMagn\uFFFDfico!"
+    text: "H\xC9ROE: \xA1Magn\xEDfico!"
     englishText: 'HERO: Awesome!'
   - key: F2_F04
-    text: "FUNCIONARIO: \uFFFD siempre y cuando supere nuestra auditor\uFFFDa."
-    englishText: "EMPLOYEE: \uFFFD once you pass our audit."
+    text: "FUNCIONARIO: \u2026 siempre y cuando supere nuestra auditor\xEDa."
+    englishText: "EMPLOYEE: \u2026 once you pass our audit."
   - key: F2_H05
-    text: "H\uFFFDROE: \uFFFDC\uFFFDmo?"
+    text: "H\xC9ROE: \xBFC\xF3mo?"
     englishText: 'HERO: Sorry, what?'
-  - key: 
-    text: 
-    englishText: 
+  - key: F3_AU01_01
+    text: "AUDITOR: (Suspira) (Mira el informe) Menos mal que he desayunado antes
+      de venir\u2026 "
+    englishText: "AUDITOR: (sighs) (looks at the letter) Well, thank goodness I have
+      already took my breakfast\u2026"
+  - key: F3_AU01_02
+    text: "Esta mazmorra es larga de narices. Veamos qu\xE9 ha hecho nuestro supuesto
+      h\xE9roe. "
+    englishText: ' This dungeon is long as damn big. Let''s see what our hero has
+      done. '
+  - key: F3_AUPFlag_01
+    text: "Esto me resulta extra\xF1o\u2026"
+    englishText: "This is strange\u2026"
+  - key: F3_AUPFlag_02
+    text: Creo que te he pillado
+    englishText: I think I got you
+  - key: F3_AUPFlag_03
+    text: "Mucho lirili y poco lerele, se\xF1or h\xE9roe\u2026"
+    englishText: "Much ado about nothing, mister Hero\u2026"
+  - key: F3_AUPFlag_04
+    text: "Aqu\xED hay gato encerrado\u2026"
+    englishText: "There's something fishy going on\u2026"
+  - key: F3_AUQFlag_01
+    text: Mmm me lo tengo que pensar mejor
+    englishText: "I have to think again\u2026"
+  - key: F3_AUQFlag_02
+    text: Vamos a darle un par de vueltas
+    englishText: Let's chew the cud
+  - key: F3_AUQFlag_03
+    text: "No, no hay nada que ver aqu\xED"
+    englishText: Nah, nothing to see here
+  - key: F3_AUQFlag_04
+    text: "Mejor dejarlo como estaba\u2026 "
+    englishText: "Better let it be\u2026"
+  - key: F3_Auspike_01
+    text: Prefiero los pinchos de pollo, gracias
+    englishText: I prefer a shish kebab, please
+  - key: F3_Aupend_01
+    text: "S\xED que maneja presupuesto esta gente"
+    englishText: They sure are floaded, man
+  - key: F3_Auslime_01
+    text: "Lo siento por el servicio de limpieza\u2026"
+    englishText: "I feel so sorry for the cleaning service\u2026"
+  - key: F3_Auarrow_01
+    text: "Seguro que sali\xF3 de aqu\xED 'enflechao'"
+    englishText: "I bet he took a bow after his perfomance\u2026"
+  - key: F3_AU_01_01
+    text: 'AUDITOR: Hola, buenas. Soy del Departamento de Asuntos Heroicos.'
+    englishText: 'AUDITOR: Hello, I am from the Department of Heroic Affairs.'
+  - key: F3_AU_01_02
+    text: "He venido a auditar una haza\xF1a"
+    englishText: I came to audit a feat.
+  - key: F3_PR_01_01
+    text: "PRISIONERO: CON USTED QUER\xCDA YO HABLAR."
+    englishText: 'PRISONER: FINALLY, SOMEONE FROM THE BLOODY DEPARTMENT! '
+  - key: F3_PR_01_02
+    text: "\xBFQu\xE9 es esto de enviar a un h\xE9roe al rescate y que ni rescate
+      ni n\xE1?"
+    englishText: Why dae ye send an hero wha doesnae rescue??
+  - key: F3_AU_02
+    text: "AUDITOR: \xBFHa venido alguien a por usted?"
+    englishText: 'AUDITOR: Has someone come to rescue you?'
+  - key: F3_PR_02_01
+    text: "PRISIONERO: S\xED, s\xED, uno muy limpito, con su armadurita bien brillante."
+    englishText: 'PRISONER:  Ay,yes, a knicht i his shiny little armour an awthing. '
+  - key: F3_PR_02_02
+    text: " Estuvo aqu\xED ayer justo."
+    englishText: He wis here juist yesterday!
+  - key: F3_AU_03
+    text: "AUDITOR: \xBFY qu\xE9 pas\xF3? "
+    englishText: 'AUDITOR: And what happened?'
+  - key: F3_PR_03_01
+    text: "PRISIONERO: \xA1Pues que tal como vino se fue! \xA1Mucha palabrer\xEDa,
+      pero rescatar poquito!"
+    englishText: 'PRISONER: He went back the way he came! much talk an little action!'
+  - key: F3_PR_03_02
+    text: "Llevo siglos aqu\xED, rodeado de malolientes goblins. "
+    englishText: ' A''v been here for ages, surroundit bi pongy goblins. '
+  - key: F3_PR_03_03
+    text: En cuanto salga voy a poner una queja en su departamento que se va a cagar
+      la perra.
+    englishText: The moment A put a foot ootside this dungeon, A am gaun'ae complaint
+      tae the department.
+  - key: F3_AU_04
+    text: "AUDITOR: Disculpe, el Departamento de Asuntos Heroicos trabaja todo lo
+      r\xE1pido que puede\u2026"
+    englishText: "AUDITOR: I am sorry, the Department of Heroic Affairs works as
+      fast as it can\u2026"
+  - key: F3_PR_04_01
+    text: "PRISIONERO: Pobrecitos, que trabajan mucho y han tardado CINCUENTA A\xD1OS
+      en enviarme a alguien."
+    englishText: 'PRISONER: Oh, poor souls, they work sae hard an thon''s why they
+      took fifty years tae send someone for me.'
+  - key: F3_PR_04_02
+    text: "\xBFEn esto se van mis impuestos? Esto es indignante\u2026"
+    englishText: Is here where aw ma taxes are gang? outrageous!
+  - key: F3_AU_05
+    text: "AUDITOR: Se\xF1or, entiendo su enfado, pero el sistema est\xE1 saturado."
+    englishText: 'AUDITOR: Sir, I understand your anger, but the system is collapsed. '
+  - key: F3_PR_05
+    text: 'PRISIONERO: Si, si, muy saturado PERO BIEN QUE VIENEN A BUSCAR EL CETRITO.'
+    englishText: 'PRISONER: Yes, collapsed, but still here you are LOOKING FOR A
+      BLOODY SCEPTER, RIGHT?'
+  - key: F3_AU_06
+    text: "AUDITOR: \xBFSe refiere al tesoro de la mazmorra, el cetro del Rey Ca\u2026?"
+    englishText: "AUDITOR: Do you mean the treasure of this dungeon? The scepter
+      of the F\u2026"
+  - key: F3_PR_06_01
+    text: "PRISIONERO: \xA1CABR\xD3N!  \xBFQui\xE9n lo ha votado? "
+    englishText: 'PRISONER: FUCKIN KING, AYE!'
+  - key: F3_PR_06_02
+    text: "\xA1Yo desde luego no, que estaba aqu\xED!"
+    englishText: Wha votit for him? A surely didn't, A wis trappit here!!
+  - key: F3_AU_07
+    text: "AUDITOR: Se\xF1or, su h\xE9roe de repuesto llegar\xE1 entre una y dos
+      lunas h\xE1biles."
+    englishText: 'AUDITOR: Sir, your spare hero will arrive within one or two business
+      moons.'
+  - key: F3_PR_07
+    text: "PRISIONERO: \xA1M\xE1s le vale! \xA1Aqu\xED le espero! "
+    englishText: 'PRISONER: He better do! I wait here!'
+  - key: F3_Grub01_01
+    text: "GRUBLIN: Verde que te quiero verde\u2026 \xA1AGH! \xBFT\xFA qui\xE9n eres? "
+    englishText: "GRUBLIN: I\u2019m green dabadee dabadiii\u2026 OH! Who is you? "
+  - key: F3_Grub01_02
+    text: "\xBFQu\xE9 haces aqu\xED? Por favor, no pegues al pobre Grublin."
+    englishText: What you do here? Please, do not hit poor Grublin
+  - key: F3_Grub01_03
+    text: "Grublin es un goblin bueno\u2026"
+    englishText: " Grublin is good goblin\u2026"
+  - key: F3_Au01
+    text: "AUDITOR: Buenas, soy el Auditor de Haza\xF1as."
+    englishText: "AUDITOR: Hi there, I'm the Feat Auditor\u2026"
+  - key: F3_Grub02
+    text: "GRUBLIN: \xBF\xBFUn auditor que ara\xF1a?? \xBFHas venido a hacerle risris
+      en la cabecita a Grublin?"
+    englishText: "GRUBLIN: The what?? You came to smelly smell Grublin\u2019s tiny
+      cheesies? "
+  - key: F3_Au02
+    text: "AUDITOR: HAZA\xD1AS. AUDITOR DE HAZA\xD1AS. EN PLAN, DE H\xC9ROES."
+    englishText: "AUDITOR: FEAT, FEAT AUDITOR. LIKE, HEROES\u2019 FEAT. "
+  - key: F3_Grub03_01
+    text: "GRUBLIN: Oh, al se\xF1orito le gusta rasqui-rasqui a los h\xE9roes n\xE1
+      m\xE1s\u2026 "
+    englishText: "GRUBLIN: Oh, Mr. Auditor only likes heros\u2019 feet. "
+  - key: F3_Grub03_02
+    text: 'Vale, vale. Grublin no juzga, a cada cual a lo suyo. '
+    englishText: "Ok, Grublin don\u2019t judge, no kinkshaming. "
+  - key: F3_Grub03_03
+    text: "Si buscas un h\xE9roe para hacerle rasqui-rasqui, vi uno ayer. "
+    englishText: 'If you are looking for a hero to smelly smell, I saw one yesterday. '
+  - key: F3_Grub03_04
+    text: "Enlatado y todo. Ten\xEDa un pinchi-pincho brillante. "
+    englishText: 'All tined and everything. He had a big shiny stabby stab. '
+  - key: F3_Grub03_05
+    text: "Me gustan los pinchi-pinchos, \xBFsabes?"
+    englishText: "Me likey stabby stab, ya\u2019 know? "
+  - key: F3_Au03
+    text: "AUDITOR: \xBFY qu\xE9 hizo?"
+    englishText: 'AUDITOR: What did he do?'
+  - key: F3_Grub04_01
+    text: "GRUBLIN: No mucho. Cosas de h\xE9roes: "
+    englishText: 'GRUBLIN: Not much. Usual hero stuff. '
+  - key: F3_Grub04_02
+    text: 'coger piedritas brillantes, dejarse el culete hecho un colador, '
+    englishText: "Take shiny flat lil\u2019 rockies. Hit spikies with his bum-bum. "
+  - key: F3_Grub04_03
+    text: "matar al amigo de Grublin\u2026 Ya ves, un martes. "
+    englishText: "Stab Grublin\u2019s friend\u2026 Ya\u2019 know, Tuesday evening."
+  - key: F3_Au04
+    text: "AUDITOR: Mmm\u2026 \xBFsolo a un amigo?"
+    englishText: "AUDITOR:  Hum\u2026 only one friend?"
+  - key: F3_Grub05_01
+    text: "Grublin: S\xED, al \xFAnico amigo de Grublin, Grooblin. Pobre Grooblin. "
+    englishText: "GRUBLIN: Yes, Grublin\u2019s only friend, Grooblin. Poor Grooblin. "
+  - key: F3_Grub05_02
+    text: "Le deb\xEDa cinco piedras brillantes a Grublin\u2026 ese cabr\xF3n\u2026"
+    englishText: "He owed Grublin five shiny rockies, that bastard\u2026 "
+  - key: F3_Au05
+    text: "AUDITOR: Mmm\u2026 interesante\u2026 Gracias, Grublin."
+    englishText: "AUDITOR: Mmh\u2026 interesting\u2026  Thank you, Grublin."
+  - key: F3_Grub06
+    text: "GRUBLIN: No hay de qu\xE9. \xA1Que vaya bien el rasqui-rasqui!"
+    englishText: 'GRUBLIN: No prob, feet smeller. Good luck smelling!'
+  - key: F3_Au06
+    text: "AUDITOR: \u2026"
+    englishText: "AUDITOR: \u2026 "

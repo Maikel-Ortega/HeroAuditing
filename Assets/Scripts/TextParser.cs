@@ -31,8 +31,8 @@ public class TextParser : ScriptableObject
             parsedTexts.Add(new TextByKey()
             {
                 key = grid[0,i],
-                text = grid[2,i],
-                englishText = grid[4,i]
+                text = grid[1,i],
+                englishText = grid[2,i]
             });
         }        
     }

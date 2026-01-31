@@ -65,7 +65,7 @@ public static class CSVReader
     static public string[] SplitCsvLine(string line)
     {
         return (from System.Text.RegularExpressions.Match m in System.Text.RegularExpressions.Regex.Matches(line,
-        @"(((?<x>(?=[;\r\n]+))|""(?<x>([^""]|"""")+)""|(?<x>[^;\r\n]+)),?)",
+        @"(((?<x>(?=[,\r\n]+))|""(?<x>([^""]|"""")+)""|(?<x>[^,\r\n]+)),?)",
         System.Text.RegularExpressions.RegexOptions.ExplicitCapture)
                 select m.Groups[1].Value).ToArray();
     }
