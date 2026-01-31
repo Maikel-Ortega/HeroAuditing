@@ -13,6 +13,7 @@ public class TextParser : ScriptableObject
     {
         public string key;
         public string text;
+        public string englishText;
     }
 
 
@@ -30,15 +31,27 @@ public class TextParser : ScriptableObject
             parsedTexts.Add(new TextByKey()
             {
                 key = grid[0,i],
-                text = grid[1,i]
+                text = grid[2,i],
+                englishText = grid[4,i]
             });
         }        
     }
 
-    public string GetTextByKey(string key)
+    
+
+    public string GetTextByKey(string key, bool englishText=true)
     {
         TextByKey match = parsedTexts.Find(x => x.key == key);
+        if(englishText)
+        {
+            string toReturn = (match.englishText != null ? match.englishText : $"<ERROR: KEY {key} not found>");
+            return toReturn;
+        }
+        else
+        {
         string toReturn = (match.text != null ? match.text: $"<ERROR: KEY {key} not found>");
         return toReturn;
+
+        }
     }
 }
