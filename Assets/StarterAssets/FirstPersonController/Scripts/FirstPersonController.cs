@@ -51,11 +51,12 @@ namespace StarterAssets
 		[Tooltip("How far in degrees can you move the camera down")]
 		public float BottomClamp = -90.0f;
 
-		[Header("Hero")]
+        public InteractAbility interactAbility;
+
+        [Header("Hero")]
 		public WeaponController weaponController;
 		public Animator animator;
 		public const string ANIM_TRIGGER_ATTACK = "ATTACK";
-
 
 		[Header("Auditor")]
 		public ContradictionAbility contradictionAbility;
@@ -124,16 +125,19 @@ namespace StarterAssets
 
 		private void Update()
 		{
-			JumpAndGravity();
-			GroundedCheck();
-			Move();
-			if (playerType == PLAYER_TYPE.HERO)
+			if(!DialogManager.Instance.dialogRunning)
 			{
-				HeroUpdate();
-			}
-			else 
-			{
-				AuditorUpdate();
+				JumpAndGravity();
+				GroundedCheck();
+				Move();
+				if (playerType == PLAYER_TYPE.HERO)
+				{
+					HeroUpdate();
+				}
+				else 
+				{
+					AuditorUpdate();
+				}
 			}
 		}
 
@@ -153,6 +157,7 @@ namespace StarterAssets
             if (_input.interact)
             {
                 Debug.Log("HeroUpdate:Try interact!");
+				interactAbility?.TryInteract();
                 _input.interact = false;
 
             }
@@ -170,10 +175,7 @@ namespace StarterAssets
             if (_input.interact)
             {
                 Debug.Log("AuditorUpdate:Try interact!");
-
-				//TESTING CONTRADICTION
-				TestContradictions();
-
+                interactAbility?.TryInteract();
                 _input.interact = false;
             }
         }
@@ -206,7 +208,8 @@ namespace StarterAssets
 
 		private void LateUpdate()
 		{
-			CameraRotation();
+			if(!DialogManager.Instance.dialogRunning)
+				CameraRotation();
 		}
 
 		private void GroundedCheck()

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ae3060e648e3c4dbc2a57a96d36b14, type: 3}
+  m_Name: MasterTextAsset
+  m_EditorClassIdentifier: Assembly-CSharp::TextParser
+  parsedTexts:
+  - key: F2_H01
+    text: "H\uFFFDROE: \uFFFD Y as\uFFFD fue como pas\uFFFD."
+    englishText: "HERO: \uFFFD and that's what it happened"
+  - key: F2_F01
+    text: "FUNCIONARIO: Ah\uFFFD Y as\uFFFD consigui\uFFFD el Scepter of the Fallen
+      King."
+    englishText: "EMPLOYEE: Aha\uFFFD That's how you got the Scepter of the Fallen
+      King."
+  - key: F2_H02
+    text: "H\uFFFDROE: As\uFFFD es."
+    englishText: 'HERO: That''s right.'
+  - key: F2_F02
+    text: "FUNCIONARIO: Y por eso viene a reclamar su licencia de h\uFFFDroe."
+    englishText: 'EMPLOYEE: And that is why you are here to claim for your hero licence.'
+  - key: F2_H03
+    text: "H\uFFFDROE: Yep. "
+    englishText: 'HERO: Yep.'
+  - key: F2_F03
+    text: "FUNCIONARIO:  Recibir\uFFFD su licencia en un periodo de 2 a 3 lunas h\uFFFDbiles\uFFFD"
+    englishText: "EMPLOYEE: Ok, you will receive your hero licence within two or
+      three business moons\uFFFD"
+  - key: F2_H04
+    text: "H\uFFFDROE: \uFFFDMagn\uFFFDfico!"
+    englishText: 'HERO: Awesome!'
+  - key: F2_F04
+    text: "FUNCIONARIO: \uFFFD siempre y cuando supere nuestra auditor\uFFFDa."
+    englishText: "EMPLOYEE: \uFFFD once you pass our audit."
+  - key: F2_H05
+    text: "H\uFFFDROE: \uFFFDC\uFFFDmo?"
+    englishText: 'HERO: Sorry, what?'
+  - key: 
+    text: 
+    englishText: 
