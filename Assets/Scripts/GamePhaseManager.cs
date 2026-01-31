@@ -144,6 +144,13 @@ public class GameFSM
             fsm.owner.auditorGameObject.SetActive(true);
 
             fsm.owner.MakeRandomChanges();
+
+            // Desactivar todos los goblins vivos
+            foreach(var gob in GameObject.FindObjectsByType<Enemy>(FindObjectsSortMode.InstanceID))
+            {
+                if (gob.entityData.blackboard.GetBool("ALIVE"))
+                    gob.SetDialogueState(); 
+            }
         }
 
         public override void OnUpdate(GameFSM fsm, float deltaTime)
