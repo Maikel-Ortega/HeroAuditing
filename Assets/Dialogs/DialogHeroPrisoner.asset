@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3fcd75b288452564a8dcce3b88ca6fe5, type: 3}
-  m_Name: DialogAuditorPrisoner
+  m_Name: DialogHeroPrisoner
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableDialog
   dialogIDs:
   - F3_Au_01
