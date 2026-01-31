@@ -1,4 +1,6 @@
 using System.Buffers;
+using System.Collections.Generic;
+using NUnit.Framework;
 using UnityEngine;
 using static GameFSM;
 
@@ -37,6 +39,24 @@ public class GamePhaseManager : MonoBehaviour
     public void EndResolutionPhase()
     {
         Debug.Log("GAME END! Roll credits");
+    }
+
+    public void MakeRandomChanges()
+    {
+        var mgr = FindFirstObjectByType<GameStateManager>();
+        mgr.SaveGameState();
+        mgr.MakeRandomChanges(1);
+    }
+
+    public List<ScriptableID> GetRealContradictions()
+    {
+        var mgr = FindFirstObjectByType<GameStateManager>();
+        List<ScriptableID> differences = mgr.GetDifferencesFromSavedState();
+        foreach (var item in differences)
+        {
+            Debug.Log("Contradiction detected is" + mgr.FindById(item));
+        }
+        return differences;
     }
 }
 
@@ -122,6 +142,8 @@ public class GameFSM
 
             Debug.Log("Start Auditor Phase");
             fsm.owner.auditorGameObject.SetActive(true);
+
+            fsm.owner.MakeRandomChanges();
         }
 
         public override void OnUpdate(GameFSM fsm, float deltaTime)

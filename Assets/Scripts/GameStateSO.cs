@@ -38,7 +38,7 @@ public class GameState
     {
         foreach (var entity in gameEntities)
         {
-            gameState.Add(entity.id, entity.blackboard);
+            gameState.Add(entity.id, entity.blackboard.GetCopy());
         }
     }
 

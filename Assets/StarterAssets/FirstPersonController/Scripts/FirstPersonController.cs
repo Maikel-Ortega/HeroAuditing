@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using NUnit.Framework;
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
 #endif
@@ -168,8 +170,38 @@ namespace StarterAssets
             if (_input.interact)
             {
                 Debug.Log("AuditorUpdate:Try interact!");
+
+				//TESTING CONTRADICTION
+				TestContradictions();
+
                 _input.interact = false;
             }
+        }
+
+		void TestContradictions()
+		{
+            List<IContradictionItem> markedItems = contradictionAbility.GetAllContradictionItems();
+            var mgr = FindFirstObjectByType<GamePhaseManager>();
+            List<ScriptableID> realContradictions = mgr.GetRealContradictions();
+
+            List<ScriptableID> markedIDs = new List<ScriptableID>();
+            foreach (var item in markedItems)
+            {
+                markedIDs.Add(item.GetId());
+            }
+
+            int score = 0;
+            foreach (var item in realContradictions)
+            {
+                if (markedIDs.Contains(item))
+                {
+                    Debug.Log("CONTRADICTION WAS MARKED BY THE PLAYER!");
+
+                    score++;
+                }
+            }
+
+            Debug.Log("SCORE = " + score);
         }
 
 		private void LateUpdate()

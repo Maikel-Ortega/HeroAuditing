@@ -1,6 +1,7 @@
 using StarterAssets;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UIElements;
 
 public class Enemy : MonoBehaviour, IContradictionItem
 {
@@ -39,6 +40,14 @@ public class Enemy : MonoBehaviour, IContradictionItem
         heroReference = FindAnyObjectByType<FirstPersonController>().gameObject;
         weaponController = GetComponentInChildren<WeaponController>();
         animator = GetComponentInChildren<Animator>();
+        entityData.OnAlterCommand += AlterCommand;
+    }
+
+    void AlterCommand()
+    {
+        bool currentState = entityData.blackboard.GetBool(stateKey_Alive);
+        SetGraphics(!currentState);
+        entityData.blackboard.SetBool(stateKey_Alive,!currentState);
     }
 
     void Init()
@@ -54,6 +63,12 @@ public class Enemy : MonoBehaviour, IContradictionItem
         deadGraphics.SetActive(!alive);
     }
 
+    public void SetAlive(bool alive)
+    {
+        SetGraphics(alive);
+        entityData.blackboard.SetBool(stateKey_Alive, alive);
+    }
+
     public void OnDeath()
     {
         entityData.blackboard.SetBool(stateKey_Alive, false);
@@ -61,10 +76,6 @@ public class Enemy : MonoBehaviour, IContradictionItem
         currentState = GoblinState.DEAD;
     }
 
-    public bool IsContradiction(Blackboard data)
-    {
-        return false;
-    }
 
     void Update()
     {
@@ -97,5 +108,10 @@ public class Enemy : MonoBehaviour, IContradictionItem
                 currentState = GoblinState.IDLE;
             }
         }
+    }
+
+    public ScriptableID GetId()
+    {
+        return entityData.id;
     }
 }

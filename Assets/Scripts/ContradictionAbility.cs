@@ -47,6 +47,7 @@ public class ContradictionAbility : MonoBehaviour
 
     }
 
+
     public void DeployMarker(Vector3 pos, Vector3 normal)
     {
         GameObject go = Instantiate(contradictionMarkerPrefab,pos, Quaternion.identity);
@@ -58,4 +59,17 @@ public class ContradictionAbility : MonoBehaviour
         deployedMarkers.Remove(go);
         Destroy(go);
     }
+
+    public List<IContradictionItem> GetAllContradictionItems()
+    {
+        List<IContradictionItem> allItemsFound = new List<IContradictionItem>();
+        foreach (var item in deployedMarkers)
+        {
+            List<IContradictionItem> foundItems =  item.GetComponent<ContradictionMarker>().FindContradictionItemsInRange();
+            allItemsFound.AddRange(foundItems);
+        }
+        Debug.Log($"Number of contradiction items in range of markers=  {allItemsFound.Count}");
+        return allItemsFound;
+    }
 }
+

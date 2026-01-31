@@ -7,5 +7,5 @@ public interface IContradictionItem
     /// </summary>
     /// <param name="data"></param>
     /// <returns></returns>
-    public bool IsContradiction(Blackboard data);
+    public ScriptableID GetId();
 }

@@ -1034,6 +1034,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4268261209919436104, guid: 82ec1afdb69993b4a9e6b67c6f3bafb0, type: 3}
+      propertyPath: moveSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156265989031278805, guid: 82ec1afdb69993b4a9e6b67c6f3bafb0, type: 3}
+      propertyPath: id
+      value: 
+      objectReference: {fileID: 11400000, guid: d3d623e0a21b6894cb860a832d208517, type: 2}
     - target: {fileID: 6280437762417657867, guid: 82ec1afdb69993b4a9e6b67c6f3bafb0, type: 3}
       propertyPath: m_Name
       value: GoblinEnemy02
