@@ -4,6 +4,8 @@ using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class GameUI : MonoBehaviour
 {
@@ -141,5 +143,14 @@ public class GameUI : MonoBehaviour
     {
         transform.Find("HeroGUI").gameObject.SetActive(false);
         transform.Find("AuditorGUI").gameObject.SetActive(true);
+    }
+
+    void Update()
+    {
+        Keyboard kb = Keyboard.current;
+        if (kb.escapeKey.wasPressedThisFrame)
+            SceneManager.LoadScene(0);
+        if (kb.mKey.wasPressedThisFrame)
+            SceneManager.LoadScene(0);
     }
 }

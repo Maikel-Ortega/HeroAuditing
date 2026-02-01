@@ -10,8 +10,13 @@ public class MainMenuUI : MonoBehaviour
 
     void Start()
     {
+        AudioManager.Stop("Auditor");
+        AudioManager.Stop("HERO");
+        AudioManager.Stop("Menu");
         AudioManager.Stop("Puntuacion");
+
         AudioManager.Play("Menu", true);
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void GoToIntro()
@@ -39,5 +44,12 @@ public class MainMenuUI : MonoBehaviour
         transform.Find("Intro/IntroText").GetComponent<TMP_Text>().text = introEn;
         transform.Find("Intro/IntroButton/IntroButtonTxt").GetComponent<TMP_Text>().text = "NEXT";
         DialogManager.englishText = true;
+    }
+
+    void Update()
+    {
+        Keyboard kb = Keyboard.current;
+        if (kb.escapeKey.wasPressedThisFrame)
+            Application.Quit();
     }
 }
