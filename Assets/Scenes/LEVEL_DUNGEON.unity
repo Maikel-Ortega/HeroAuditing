@@ -14054,6 +14054,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8438705537827955865, guid: 8f937385922faea44b1875daf3718c44, type: 3}
+      propertyPath: m_text
+      value: "Misi\xF3n: TEXT TEXT"
+      objectReference: {fileID: 0}
     - target: {fileID: 8918111341119444951, guid: 8f937385922faea44b1875daf3718c44, type: 3}
       propertyPath: m_Name
       value: DungeonCanvas
@@ -41257,10 +41261,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1910672021007877694, guid: 0bb3667ad81ba79409bc2953f118ea20, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.28007
-      objectReference: {fileID: 0}
     - target: {fileID: 4707004050005935002, guid: 0bb3667ad81ba79409bc2953f118ea20, type: 3}
       propertyPath: m_Name
       value: SceneSetting
@@ -41270,17 +41270,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1089320283}
     - target: {fileID: 5470573011112239762, guid: 0bb3667ad81ba79409bc2953f118ea20, type: 3}
-      propertyPath: interludeDialog
-      value: 
-      objectReference: {fileID: 11400000, guid: 68f09c2479bf3ec42a0c5e8e5afd2032, type: 2}
-    - target: {fileID: 5470573011112239762, guid: 0bb3667ad81ba79409bc2953f118ea20, type: 3}
       propertyPath: auditorGameObject
       value: 
       objectReference: {fileID: 1451582396}
-    - target: {fileID: 6185845257194701980, guid: 0bb3667ad81ba79409bc2953f118ea20, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8833384118412066280, guid: 0bb3667ad81ba79409bc2953f118ea20, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.17636

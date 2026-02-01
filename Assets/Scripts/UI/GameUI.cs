@@ -10,6 +10,8 @@ public class GameUI : MonoBehaviour
     public static GameUI Instance { get; private set; }
     public RectTransform titleTop;
     public RectTransform titleBot;
+    public RectTransform missionDescription;
+
 
     public RectTransform auditTitleTop;
     public RectTransform auditTitleBot;
@@ -44,6 +46,9 @@ public class GameUI : MonoBehaviour
         titleTop.GetComponentInChildren<TextMeshProUGUI>().DOFade(0f, 0.5f);
         titleBot.GetComponentInChildren<TextMeshProUGUI>().DOFade(0f, 0.5f);
 
+        missionDescription.GetComponentInChildren<TextMeshProUGUI>().DOFade(1f, 0.5f);
+        yield return new WaitForSeconds(2);
+        missionDescription.GetComponentInChildren<TextMeshProUGUI>().DOFade(0f, 0.5f);
     }
 
     IEnumerator ShowAuditorMission()

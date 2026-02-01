@@ -565,7 +565,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3976662684712121790
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1018,6 +1018,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 8833384118412066280}
     m_Modifications:
     - target: {fileID: 5804723022704136892, guid: 061428163cec4bb4bb378afaad8175c1, type: 3}
+      propertyPath: interludeDialog
+      value: 
+      objectReference: {fileID: 11400000, guid: d867d4818b8a4914f9331e2839304c3a, type: 2}
+    - target: {fileID: 5804723022704136892, guid: 061428163cec4bb4bb378afaad8175c1, type: 3}
       propertyPath: resolutionPanelGameObject
       value: 
       objectReference: {fileID: 6185845257194701980}
@@ -1191,13 +1195,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainCamera
       objectReference: {fileID: 0}
+    - target: {fileID: 3976234599993800671, guid: 2c19213ff592c344ab4733bd7a4f193d, type: 3}
+      propertyPath: field of view
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 9072266001660866724, guid: 2c19213ff592c344ab4733bd7a4f193d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.17636
       objectReference: {fileID: 0}
     - target: {fileID: 9072266001660866724, guid: 2c19213ff592c344ab4733bd7a4f193d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.26807
+      value: 1.28007
       objectReference: {fileID: 0}
     - target: {fileID: 9072266001660866724, guid: 2c19213ff592c344ab4733bd7a4f193d, type: 3}
       propertyPath: m_LocalPosition.z
