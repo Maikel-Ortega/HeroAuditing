@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54fe75ec8885b384fb0549b54599b37b, type: 3}
   m_Name: Trap06
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableID
-  entityDisplayName: SpikeTrap06
+  entityDisplayName: Authorized Spike Trap #n06
