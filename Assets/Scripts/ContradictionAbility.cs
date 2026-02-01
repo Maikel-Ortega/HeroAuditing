@@ -68,7 +68,13 @@ public class ContradictionAbility : MonoBehaviour
         foreach (var item in deployedMarkers)
         {
             List<IContradictionItem> foundItems =  item.GetComponent<ContradictionMarker>().FindContradictionItemsInRange();
-            allItemsFound.AddRange(foundItems);
+            foreach (var it in foundItems)
+            {
+                if(!allItemsFound.Contains(it))
+                {
+                    allItemsFound.Add(it);
+                }
+            }
         }
         Debug.Log($"Number of contradiction items in range of markers=  {allItemsFound.Count}");
         return allItemsFound;

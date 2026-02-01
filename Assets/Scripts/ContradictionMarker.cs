@@ -17,7 +17,11 @@ public class ContradictionMarker : MonoBehaviour
             {
                 if (hit.collider.gameObject.GetComponentInParent<IContradictionItem>() != null)
                 {
-                    contradictionItems.Add(hit.collider.gameObject.GetComponentInParent<IContradictionItem>());
+                    var item = hit.collider.gameObject.GetComponentInParent<IContradictionItem>();
+                    if(!contradictionItems.Contains(item) )
+                    {
+                        contradictionItems.Add(item);
+                    }
                 }
 
             }

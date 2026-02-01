@@ -21,7 +21,7 @@ public class DialogPanel : MonoBehaviour
     void UpdateText(string key)
     {
         AudioManager.StopOneshot();
-        AudioManager.Play(key,false);
+        AudioManager.Play(key,false,1f);
         lastLine = key;
         textMeshProUGUI.text = DialogManager.Instance.GetText(key);
     }
