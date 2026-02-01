@@ -48,8 +48,10 @@ public class GameUI : MonoBehaviour
                 titleBot.DOAnchorPosY(440, entrySeconds).SetDelay(entryDelay).OnComplete(() => PlayImpactSound());
                 PlayImpactSound();
             }).SetDelay(entryDelay);
-    
 
+        yield return null;
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.lockState = CursorLockMode.Locked;
         yield return new WaitForSeconds(2);
 
         titleTop.GetComponentInChildren<TextMeshProUGUI>().DOFade(0f, 0.5f);
