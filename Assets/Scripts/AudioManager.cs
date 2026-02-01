@@ -58,6 +58,11 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    public static void StopOneshot()
+    {
+        source.Stop();
+    }
+
     public static void Stop(string _name)
     {
         if(loopingSounds.ContainsKey(_name))
