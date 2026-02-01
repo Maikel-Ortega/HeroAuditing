@@ -16,6 +16,7 @@ public class ContradictionAbility : MonoBehaviour
     private void Start()
     {
         deployedMarkers = new List<GameObject>();
+        numberToAssign = 1;
     }
 
     public void Execute()
@@ -45,11 +46,13 @@ public class ContradictionAbility : MonoBehaviour
 
     }
 
-
+    int numberToAssign = 1;
     public void DeployMarker(Vector3 pos, Vector3 normal)
     {
         GameObject go = Instantiate(contradictionMarkerPrefab,pos, Quaternion.identity);
         deployedMarkers.Add(go);
+        go.gameObject.GetComponentInChildren<ContradictionMarker>().SetNumber(numberToAssign);
+        numberToAssign++;
         AudioManager.Play("SFX FlagIn", false);
 
     }
