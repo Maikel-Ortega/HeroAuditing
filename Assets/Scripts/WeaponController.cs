@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class WeaponController : MonoBehaviour
 {
@@ -22,9 +23,12 @@ public class WeaponController : MonoBehaviour
             attackCoroutine = StartCoroutine(AttackCoroutine());
         }
     }
+    string attackSound = "SFX SwordSwing";
+
 
     IEnumerator AttackCoroutine()
     {
+        AudioManager.Play(attackSound,false);
         isAttacking = true;
         yield return new WaitForSeconds(anticipationDelay);
 
