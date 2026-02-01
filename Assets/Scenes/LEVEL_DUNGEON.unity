@@ -14054,6 +14054,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8438705537827955865, guid: 8f937385922faea44b1875daf3718c44, type: 3}
+      propertyPath: m_text
+      value: "Misi\xF3n: TEXT TEXT"
+      objectReference: {fileID: 0}
     - target: {fileID: 8918111341119444951, guid: 8f937385922faea44b1875daf3718c44, type: 3}
       propertyPath: m_Name
       value: DungeonCanvas
@@ -41277,6 +41281,10 @@ PrefabInstance:
       propertyPath: auditorGameObject
       value: 
       objectReference: {fileID: 1451582396}
+    - target: {fileID: 5786377328650469701, guid: 0bb3667ad81ba79409bc2953f118ea20, type: 3}
+      propertyPath: field of view
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 6185845257194701980, guid: 0bb3667ad81ba79409bc2953f118ea20, type: 3}
       propertyPath: m_IsActive
       value: 0
