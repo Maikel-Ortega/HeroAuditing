@@ -54,7 +54,8 @@ public class GamePhaseManager : MonoBehaviour
     {
         var mgr = FindFirstObjectByType<GameStateManager>();
         mgr.SaveGameState();
-        mgr.MakeRandomChanges(1);
+        int nChanges = Random.Range(1, 5);
+        mgr.MakeRandomChanges(nChanges);
     }
 
     public List<ScriptableID> GetRealContradictions()
