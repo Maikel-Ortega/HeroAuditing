@@ -30,13 +30,16 @@ MonoBehaviour:
     englishText: I almost fell, but luckily my catlike reflexes saved me just in
       time!
   - key: F1_Hspike_S03_01
-    text: 'En el foso me aguardaba la muerte, '
-    englishText: 'Death awaited me at the bottom of the ditch, '
+    text: 'La muerte aguardaba en esos puntiagudos pinchos, '
+    englishText: '"'
+  - key: Death awaited on those sharp spikes
+    text: '"'
+    englishText: 
   - key: F1_Hspike_S03_02
-    text: "pero me asom\xE9 al abismo y le dije: hoy no."
-    englishText: 'but I look at the abism and said: not today'
+    text: "pero la mir\xE9 a los ojos le dije: hoy no."
+    englishText: 'but I look her in the eyes and said: not today'
   - key: F1_Hspike_F01
-    text: "\xA1Cu\xE1l fue mi sorpresa cuando ca\xED en ese maldito foso!"
+    text: "\xA1Cu\xE1l fue mi sorpresa cuando ca\xED en la trampa!"
     englishText: What was my surprise when I fell into that dreadful trap!
   - key: F1_Hspike_F02
     text: He de admitirlo, esos pinchazos no fueron precisamente agradables.
@@ -161,7 +164,7 @@ MonoBehaviour:
   - key: F1_H_01_03
     text: "Dar\xE9 por finalizado su vil r\xE9gimen con mi filo certero. "
     englishText: I will end up his evil regime with my mighty sword.
-  - key: F1_Pr_01
+  - key: F1_Pr_02
     text: "PRISIONERO: \xA1Por fin! \xA1Llevo d\xE9cadas esperando a un h\xE9roe
       como t\xFA!"
     englishText: 'PRISONER: Finally! A have waitit an eternity for a hero such as
@@ -169,7 +172,7 @@ MonoBehaviour:
   - key: F1_H_02
     text: "H\xC9ROE: No se preocupe, he venido a rescatarle. \xBFQu\xE9 le pas\xF3?"
     englishText: 'HERO: Do not fear, I came to rescue you. What happened?'
-  - key: F1_Pr_02_01
+  - key: F1_Pr_03
     text: "PRISIONERO: El malvado rey goblin me encerr\xF3 aqu\xED hace m\xE1s de
       cincuenta a\xF1os, ya ni siquiera recuerdo la luz del sol... "
     englishText: 'PRISONER: The evil goblin kin lockit me here more than fity years

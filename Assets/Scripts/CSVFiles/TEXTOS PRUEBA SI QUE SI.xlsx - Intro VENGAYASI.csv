@@ -4,9 +4,10 @@ F1_HIntro_02,Sus puertas me recibieron como fauces abiertas , Its gates greeted 
 F1_HIntro_03,y fui engullido por su perversa oscuridad, and I was gobbled by its wicked darkness
 F1_Hspike_S01,Salté por encima del foso de pinchos sin recibir un solo rasguño.,I jumped over the spike trap without getting no harm!
 F1_Hspike_S02,"¡Casi me caigo, pero por suerte reaccioné a tiempo!","I almost fell, but luckily my catlike reflexes saved me just in time!"
-F1_Hspike_S03_01,"En el foso me aguardaba la muerte, ","Death awaited me at the bottom of the ditch, "
-F1_Hspike_S03_02,pero me asomé al abismo y le dije: hoy no.,but I look at the abism and said: not today
-F1_Hspike_F01,¡Cuál fue mi sorpresa cuando caí en ese maldito foso!,What was my surprise when I fell into that dreadful trap!
+F1_Hspike_S03_01,"La muerte aguardaba en esos puntiagudos pinchos, ","
+Death awaited on those sharp spikes,"
+F1_Hspike_S03_02,pero la miré a los ojos le dije: hoy no.,but I look her in the eyes and said: not today
+F1_Hspike_F01,¡Cuál fue mi sorpresa cuando caí en la trampa!,What was my surprise when I fell into that dreadful trap!
 F1_Hspike_F02,"He de admitirlo, esos pinchazos no fueron precisamente agradables.","I must admit, those pricks were not nice at all"
 F1_Hspike_F03,¡Aún tengo las marcas en la armadura!,I still have marks on my armour!
 F1_Hpen_S01,"Pasé raudo y veloz por las cuchillas, sin que me rozasen.",I run through the knives as swiftly as the wind without they even got to touch me!
@@ -42,14 +43,13 @@ F1_Hgob_S03,¡Volved al infierno del que salisteis!,Come back to hell you came f
 F1_Hgob_F01,No debí subestimarlos.,I shouldn't have underestimated them.
 F1_Hgob_F02,A veces se me olvida lo escurridizos que son.,Sometimes I forget how slippery they are.
 F1_Hgob_F03,Eso dolió.,"Ouch, that hurt."
-,,
 F1_Pr_01,PRISIONERO: ¡Eh! ¿Qué pasa aquí? ¿Tú quién eres?  ,PRISONER: Oi! wha's thare? wha are ye?
 F1_H_01_01,"HÉROE: ¡Saludos, amable prisionero! ","HERO: Greetings, friendly prisoner! "
 F1_H_01_02,He venido a recorrer esta mazmorra y poner fin al malvado reino del terror del rey Goblin que aquí mora. ,I came to go down this dungeon and put an end to the reign of terror of the Goblin king! 
 F1_H_01_03,Daré por finalizado su vil régimen con mi filo certero. ,I will end up his evil regime with my mighty sword.
-F1_Pr_01,PRISIONERO: ¡Por fin! ¡Llevo décadas esperando a un héroe como tú!,PRISONER: Finally! A have waitit an eternity for a hero such as ye!
+F1_Pr_02,PRISIONERO: ¡Por fin! ¡Llevo décadas esperando a un héroe como tú!,PRISONER: Finally! A have waitit an eternity for a hero such as ye!
 F1_H_02,"HÉROE: No se preocupe, he venido a rescatarle. ¿Qué le pasó?","HERO: Do not fear, I came to rescue you. What happened?"
-F1_Pr_02_01,"PRISIONERO: El malvado rey goblin me encerró aquí hace más de cincuenta años, ya ni siquiera recuerdo la luz del sol... ",PRISONER: The evil goblin kin lockit me here more than fity years ago.
+F1_Pr_03,"PRISIONERO: El malvado rey goblin me encerró aquí hace más de cincuenta años, ya ni siquiera recuerdo la luz del sol... ",PRISONER: The evil goblin kin lockit me here more than fity years ago.
 F1_H_03,"HÉROE: Pues sus días de cautiverio han terminado, anciano. ¡Vuele libre!","HERO: Your captivity days are over, elderly man. Fly free!"
 F1_Pr_04,PRISIONERO:  ¡Que los dioses te bendigan!,PRISONER: Gods bless ye!
 F2_H01,HÉROE: … Y así fue como pasó.,HERO: … and that's what it happened
@@ -113,7 +113,7 @@ F3_Grub04_02,"coger piedritas brillantes, dejarse el culete hecho un colador, ",
 F3_Grub04_03,"Intentar apuñalar al amigo de Grublin… Ya ves, un martes. ","Try to stab Grublin’s friend… Ya’ know, Tuesday evening."
 F3_Au04,AUDITOR: Mmm… ¿tu amigo?,AUDITOR:  Hum… your friend?
 F3_Grub05_01,"Grublin: Sí, al único amigo de Grublin, Grooblin. Pobre Grooblin. ","GRUBLIN: Yes, Grublin’s only friend, Grooblin. Poor Grooblin. "
-F3_Grub05_02,Le debe cinco piedras brillantes a Grublin… ese cabrón…,"He owe Grublin five shiny rockies, that bastard… "
+F3_Grub05_02,Le debía cinco piedras brillantes a Grublin… ese cabrón…,"He owe Grublin five shiny rockies, that bastard… "
 F3_Au05,"AUDITOR: Mmm… interesante… Gracias, Grublin.","AUDITOR: Mmh… interesting…  Thank you, Grublin."
 F3_Grub06,GRUBLIN: No hay de qué. ¡Que vaya bien el rasqui-rasqui!,"GRUBLIN: No prob, feet smeller. Good luck smelling!"
 F3_Au06,AUDITOR: …,AUDITOR: … 
