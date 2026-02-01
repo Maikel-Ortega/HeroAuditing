@@ -1721,7 +1721,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: '
 
-    AUDITOR'
+    TO SLAY'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e130bf7f8b3b2f4419aab2f02b059a32, type: 2}
   m_sharedMaterial: {fileID: -3395038541788476115, guid: e130bf7f8b3b2f4419aab2f02b059a32, type: 2}
@@ -1989,6 +1989,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7ad719cc584f1ab458c721ef69fdd1eb, type: 3}
       propertyPath: m_Name
       value: Goblin_Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7ad719cc584f1ab458c721ef69fdd1eb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 7ad719cc584f1ab458c721ef69fdd1eb, type: 3}
       propertyPath: m_Controller
@@ -2264,7 +2268,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: FEAT
+  m_text: LICENCE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e130bf7f8b3b2f4419aab2f02b059a32, type: 2}
   m_sharedMaterial: {fileID: -3395038541788476115, guid: e130bf7f8b3b2f4419aab2f02b059a32, type: 2}

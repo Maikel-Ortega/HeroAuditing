@@ -218,6 +218,8 @@ public class GameFSM
             Cursor.lockState = CursorLockMode.None;
             AudioManager.Play("Puntuacion", true);
 
+            GameObject.FindFirstObjectByType<ContradictionAbility>().gameObject.SetActive(false);
+            DialogManager.Instance.ShowInteractPrompt(false);
         }
 
         public override void OnUpdate(GameFSM fsm, float deltaTime)
