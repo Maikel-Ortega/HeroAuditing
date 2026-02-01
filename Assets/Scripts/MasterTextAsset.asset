@@ -147,9 +147,6 @@ MonoBehaviour:
   - key: F1_Hgob_F03
     text: "Eso doli\xF3."
     englishText: Ouch, that hurt.
-  - key: 
-    text: 
-    englishText: 
   - key: F1_Pr_01
     text: "PRISIONERO: \xA1Eh! \xBFQu\xE9 pasa aqu\xED? \xBFT\xFA qui\xE9n eres?  "
     englishText: 'PRISONER: Oi! wha''s thare? wha are ye?'
@@ -391,7 +388,7 @@ MonoBehaviour:
     text: "Grublin: S\xED, al \xFAnico amigo de Grublin, Grooblin. Pobre Grooblin. "
     englishText: "GRUBLIN: Yes, Grublin\u2019s only friend, Grooblin. Poor Grooblin. "
   - key: F3_Grub05_02
-    text: "Le debe cinco piedras brillantes a Grublin\u2026 ese cabr\xF3n\u2026"
+    text: "Le deb\xEDa cinco piedras brillantes a Grublin\u2026 ese cabr\xF3n\u2026"
     englishText: "He owe Grublin five shiny rockies, that bastard\u2026 "
   - key: F3_Au05
     text: "AUDITOR: Mmm\u2026 interesante\u2026 Gracias, Grublin."
