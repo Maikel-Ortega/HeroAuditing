@@ -171,8 +171,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.341, y: -4.9484}
-  m_SizeDelta: {x: 1301.1709, y: 144.5455}
+  m_AnchoredPosition: {x: 11.9208, y: -0.00011015}
+  m_SizeDelta: {x: 1509.5518, y: 235.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4654633837363811429
 CanvasRenderer:
@@ -204,17 +204,17 @@ MonoBehaviour:
       m_Calls: []
   m_text: Dialogue text. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-    minim veniam, quis nostrud exercitation
+    minim veniam, quis nostrud exercitationas
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e130bf7f8b3b2f4419aab2f02b059a32, type: 2}
+  m_sharedMaterial: {fileID: -3395038541788476115, guid: e130bf7f8b3b2f4419aab2f02b059a32, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4293128690
+  m_fontColor: {r: 0.9490196, g: 0.9460302, b: 0.8892314, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -239,7 +239,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -1571,8 +1571,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10.1541, y: -368.4491}
-  m_SizeDelta: {x: 1385.2202, y: 210.2446}
+  m_AnchoredPosition: {x: 11.414291, y: -355.84714}
+  m_SizeDelta: {x: 1629.6987, y: 235.4485}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5748019297352644923
 CanvasRenderer:
@@ -1595,7 +1595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.36862746}
+  m_Color: {r: 0.2924528, g: 0.29103604, b: 0.2662424, a: 0.49411765}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1646,10 +1646,10 @@ RectTransform:
   m_Children:
   - {fileID: 5055222806791104757}
   - {fileID: 4468072537155462833}
-  - {fileID: 39836854489322148}
   - {fileID: 3663434468215111666}
   - {fileID: 5790370160247617402}
   - {fileID: 4331965171514556875}
+  - {fileID: 39836854489322148}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1737,46 +1737,6 @@ MonoBehaviour:
   missionDescription: {fileID: 1631752464698286012}
   auditTitleTop: {fileID: 198764083887421926}
   auditTitleBot: {fileID: 3541160567258577157}
-  docEs: "Estimado Auditor:  Ha recibido esta misiva con el prop\xF3sito de comunicarle
-    que ha sido usted seleccionado para llevar a cabo la auditoria de la solicitud
-    de licencia de h\xE9roe con n\xFAmero A55-H0L3.   Como sabe, todos nuestros h\xE9roes
-    deben poseer una licencia para llevar a cabo su noble trabajo. Para obtener dicha
-    licencia, el h\xE9roe candidato debe superar la auditor\xEDa de haza\xF1a.  Le
-    recordamos el procedimiento de certificaci\xF3n de haza\xF1a:  - Tiene que dirigirse
-    a the Cript of the Cursed Goblin (n\xBA de identificaci\xF3n SKRY-PL4C3) con
-    la m\xE1xima prontitud posible. - Revise la mazmorra con la mayor atenci\xF3n
-    y precisi\xF3n posible. Si encuentra 5 o m\xE1s contradicciones entre la declaraci\xF3n
-    del h\xE9roe y lo que observa en la mazmorra, deber\xE1 DENEGAR la licencia.
-    Si encuentra menos de 5 contradicciones, entonces podr\xE1 APROBAR la licencia.
-    - Recuerde que puede hablar con los posibles testigos que encuentre en la mazmorra,
-    su testimonio puede ser valioso y v\xE1lido como contradicci\xF3n.  Se consideran
-    contradicciones las siguientes casu\xEDsticas: - Una trampa activada cuando deber\xEDa
-    estar desactivada. - Cad\xE1veres donde no deber\xEDa haberlos, o la ausencia
-    de ellos. - Cofres abiertos no declarados.  Cuando considere que ha terminado
-    con la auditor\xEDa, salga de la mazmorra por donde ha entrado.   Mucha suerte
-    en el desempe\xF1o de su tarea, confiamos en su buen hacer y en que sepa DESENMASCARAR
-    (\U0001F609) a los h\xE9roes fraudulentos.  Reciba un cordial saludo,  Departamento
-    de Asuntos Heroicos Reino de Draisebia"
-  docEn: "Dear Mr. Auditor,  You have received this missive for the purpose of communicating
-    that you have been selected as the auditor to conduct the perform an auditory
-    of the hero licence number A55-H0L3.  As you know, all our heroes must have a
-    licence in order to carry out their noble mission. To obtain that aforementioned
-    licence, the hero candidate must pass our feat audit.   We would like to remind
-    you the fear certification procedure: Please head to the Cript of the Cursed
-    Goblin (I.D. n\xBA SKRY-PL4C3) as expeditiously as possible.  Please inspect
-    the dungeon with the greatest attention and precision. If you find 5 or more
-    contradictions between the hero\u2019s declaration and what you notice in the
-    dungeon, you will must REFUSE the licence. However, if you find less than 5 contradictions,
-    then you will have to APPROVE the licence.  You have 8 marks to point out contradictions.
-    Please remind that you can talk to the possible witnesses you may find inside
-    the dungeon, their testimony could be valuable and valid as a contradiction.
-    The following cases are considered contradictions: An activated trap when it
-    should be deactivated, and viceversa. Corpses where they should not be, or the
-    absence of them. Undeclared open chests.  Whenever you consider the audit should
-    be over, please leave the dungeon the way you came in.  Mucha suerte en el desempe\xF1o
-    de su tarea, we trust in your good performance and that you know how to UNMASK
-    (\U0001F609) the fraudulent heroes.  Kind regards, Department of Heroic Affairs 
-    Kingdom of Draisebia"
 --- !u!1001 &909994011050384374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1872,14 +1832,6 @@ PrefabInstance:
     - target: {fileID: 5838197572951979016, guid: 4a5496cd7350087489190acaa0521627, type: 3}
       propertyPath: m_Name
       value: TransitionUI
-      objectReference: {fileID: 0}
-    - target: {fileID: 5838197572951979016, guid: 4a5496cd7350087489190acaa0521627, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6359311006558131399, guid: 4a5496cd7350087489190acaa0521627, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6405075454380696762, guid: 4a5496cd7350087489190acaa0521627, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
