@@ -92,10 +92,20 @@ public class GameUI : MonoBehaviour
         transform.Find("TransitionUI").gameObject.SetActive(true);
         transform.Find("TransitionUI/Intermission").gameObject.SetActive(false);
         transform.Find("TransitionUI/Document").gameObject.SetActive(true);
+
+        transform.Find("TransitionUI/Document/DocumentTextEs").gameObject.SetActive(false);
+        transform.Find("TransitionUI/Document/DocumentTextEn").gameObject.SetActive(false);
+        // if(DialogManager.englishText)
+            // transform.Find("TransitionUI/Document/DocumentTextEn").gameObject.SetActive(true);
+        // else
+            // transform.Find("TransitionUI/Document/DocumentTextEs").gameObject.SetActive(true);
     }
 
     public void EndInterlude()
     {
+        // fsm.ChangeState(fsm.owner.st_Auditor);
+        GameObject.FindAnyObjectByType<GamePhaseManager>().EndInterludePhase();
+
         transform.Find("TransitionUI").gameObject.SetActive(false);
         Cursor.lockState = CursorLockMode.Confined;
         Cursor.lockState = CursorLockMode.Locked;

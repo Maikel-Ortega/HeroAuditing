@@ -10,6 +10,7 @@ public class MainMenuUI : MonoBehaviour
 
     void Start()
     {
+        AudioManager.Stop("Puntuacion");
         AudioManager.Play("Menu", true);
     }
 
