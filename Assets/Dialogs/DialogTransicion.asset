@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fcd75b288452564a8dcce3b88ca6fe5, type: 3}
+  m_Name: DialogTransicion
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableDialog
+  dialogIDs:
+  - F2_H01
+  - F2_F01
+  - F2_H02
+  - F2_F02
+  - F2_H03
+  - F2_F03
+  - F2_H04
+  - F2_F04
+  - F2_H05
