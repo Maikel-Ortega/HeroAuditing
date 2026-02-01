@@ -40,6 +40,9 @@ public class GameUI : MonoBehaviour
         float entryDelay = 0.5f;
         titleTop.DOAnchorPosY(40, entrySeconds).SetEase(Ease.InCubic).OnComplete(() => titleBot.DOAnchorPosY(440, entrySeconds).SetDelay(entryDelay)).SetDelay(entryDelay);
 
+        yield return null;
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.lockState = CursorLockMode.Locked;
         
         yield return new WaitForSeconds(2);
 
