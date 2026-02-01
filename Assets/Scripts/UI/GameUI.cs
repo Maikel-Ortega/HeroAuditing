@@ -33,14 +33,23 @@ public class GameUI : MonoBehaviour
         StartCoroutine(ShowAuditorMission());
     }
 
+    void PlayImpactSound()
+    {
+        AudioManager.Play("SFX Impact 2", false,0.75f);
+    }
 
     IEnumerator ShowMission()
     {
-        float entrySeconds = 0.35f;
+        float entrySeconds = 0.25f;
         float entryDelay = 0.5f;
-        titleTop.DOAnchorPosY(40, entrySeconds).SetEase(Ease.InCubic).OnComplete(() => titleBot.DOAnchorPosY(440, entrySeconds).SetDelay(entryDelay)).SetDelay(entryDelay);
+        titleTop.DOAnchorPosY(40, entrySeconds).SetEase(Ease.InCubic).OnComplete(
+            () =>
+            {
+                titleBot.DOAnchorPosY(440, entrySeconds).SetDelay(entryDelay).OnComplete(() => PlayImpactSound());
+                PlayImpactSound();
+            }).SetDelay(entryDelay);
+    
 
-        
         yield return new WaitForSeconds(2);
 
         titleTop.GetComponentInChildren<TextMeshProUGUI>().DOFade(0f, 0.5f);
@@ -53,13 +62,19 @@ public class GameUI : MonoBehaviour
 
     IEnumerator ShowAuditorMission()
     {
-        float entrySeconds = 0.35f;
+        float entrySeconds = 0.25f;
         float entryDelay = 0.5f;
 
         float TopAnchorPosY = 40;
         float BotAnchorPosY = 440;
 
-        auditTitleTop.DOAnchorPosY(TopAnchorPosY, entrySeconds).SetEase(Ease.InCubic).OnComplete(() => auditTitleBot.DOAnchorPosY(BotAnchorPosY, entrySeconds).SetDelay(entryDelay)).SetDelay(entryDelay);
+        auditTitleTop.DOAnchorPosY(TopAnchorPosY, entrySeconds).SetEase(Ease.InCubic).OnComplete(
+            () =>
+            {
+                auditTitleBot.DOAnchorPosY(BotAnchorPosY, entrySeconds).SetDelay(entryDelay).OnComplete(()=> PlayImpactSound());
+                PlayImpactSound();
+            }
+            ).SetDelay(entryDelay);
 
 
         yield return new WaitForSeconds(2);
