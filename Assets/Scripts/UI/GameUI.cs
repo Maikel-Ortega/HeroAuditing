@@ -1,4 +1,5 @@
 using StarterAssets;
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -69,4 +70,9 @@ public class GameUI : MonoBehaviour
         return interludeFinished;
     }
 
+    public void AuditorUI()
+    {
+        transform.Find("HeroGUI").gameObject.SetActive(false);
+        transform.Find("AuditorGUI").gameObject.SetActive(true);
+    }
 }

@@ -2,6 +2,7 @@ using System.Buffers;
 using System.Collections.Generic;
 using NUnit.Framework;
 using StarterAssets;
+using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 using static GameFSM;
 
@@ -233,6 +234,8 @@ public class GameFSM
         {
             base.OnExit(fsm);
             GameObject.FindFirstObjectByType<StarterAssetsInputs>().ClearInputs();
+
+            GameUI.Instance.AuditorUI();
         }
     }
     #endregion
