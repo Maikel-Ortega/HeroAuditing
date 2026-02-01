@@ -10,15 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3fcd75b288452564a8dcce3b88ca6fe5, type: 3}
-  m_Name: DialogHeroPrisoner
+  m_Name: DialogAuditorCotilla
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableDialog
   dialogIDs:
-  - F1_Pr_01
-  - F1_H_01_01
-  - F1_H_01_02
-  - F1_Pr_01
-  - F1_H_02
-  - F1_Pr_02_01
-  - F1_H_03
-  - F1_Pr_04
-  - F1_H_04
+  - F3_AUgob_01
+  - F3_Gobcotilla_01
+  - F3_AUgob_02
+  - F3_Gobcotilla_02

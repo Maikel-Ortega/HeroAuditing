@@ -147,6 +147,9 @@ MonoBehaviour:
   - key: F1_Hgob_F03
     text: "Eso doli\xF3."
     englishText: Ouch, that hurt.
+  - key: 
+    text: 
+    englishText: 
   - key: F1_Pr_01
     text: "PRISIONERO: \xA1Eh! \xBFQu\xE9 pasa aqu\xED? \xBFT\xFA qui\xE9n eres?  "
     englishText: 'PRISONER: Oi! wha''s thare? wha are ye?'
@@ -159,62 +162,28 @@ MonoBehaviour:
     englishText: 'I came to go down this dungeon and put an end to the reign of terror
       of the Goblin king! '
   - key: F1_H_01_03
-    text: "Dar\xE9 por finalizado su vil r\xE9gimen en cuanto mi hoja atraviese su\u2026"
-    englishText: "I will end up his evil regime the moment my sword\u2026"
-  - key: F1_Pr_02_01
-    text: "PRISIONERO: \xA1Que s\xED, que s\xED, que eres un h\xE9roe muy guay! \xA1Ya
-      era hora, eh! "
-    englishText: 'PRISONER: Ay, ay, we know, ye are a cool knicht! it wis aboot time,
-      huh! '
-  - key: F1_Pr_02_02
-    text: "Mucho discursito, mucho discursito, pero aqu\xED rescatar poquito, \xBFeh?  "
-    englishText: aw talk an na action, huh?
-  - key: F1_Pr_02_03
-    text: "Llevo siglos aqu\xED, rodeado de malolientes goblins. "
-    englishText: ' A''v been here for ages, surroundit bi pongy goblins. '
-  - key: F1_Pr_02_04
-    text: "En cuanto salga voy a poner una queja en el Departamento de Asuntos Heroicos\u2026"
-    englishText: 'The moment A put a foot ootside this dungeon, A am gaun''ae complaint
-      tae '
-  - key: F1_Pr_02_05
-    text: 
-    englishText: "the department o heroic affairs\u2026"
+    text: "Dar\xE9 por finalizado su vil r\xE9gimen con mi filo certero. "
+    englishText: I will end up his evil regime with my mighty sword.
+  - key: F1_Pr_01
+    text: "PRISIONERO: \xA1Por fin! \xA1Llevo d\xE9cadas esperando a un h\xE9roe
+      como t\xFA!"
+    englishText: 'PRISONER: Finally! A have waitit an eternity for a hero such as
+      ye!'
   - key: F1_H_02
-    text: "H\xC9ROE: No se preocupe, voy a rescatarle y\u2026"
-    englishText: "HERO: Do not fear, I am going to take you out of this\u2026"
-  - key: F1_Pr_03_01
-    text: "PRISIONERO: Anda, vaya, meenos mal, el se\xF1orito ha venido a rescatarme,
-      qu\xE9 bien. "
-    englishText: 'PRISONER: Oh, wow, lucky me this knicht i shiny armour has decidit
-      tae rescue me. '
-  - key: F1_Pr_03_02
-    text: "Solo han tardado CINCUENTA A\xD1OS en enviarme a alguien, \xBFen esto
-      se van mis impuestos? Esto es indignante\u2026"
-    englishText: It  only took fifty years tae send someone. Is here where aw ma
-      taxes are gang? Outrageous!
+    text: "H\xC9ROE: No se preocupe, he venido a rescatarle. \xBFQu\xE9 le pas\xF3?"
+    englishText: 'HERO: Do not fear, I came to rescue you. What happened?'
+  - key: F1_Pr_02_01
+    text: "PRISIONERO: El malvado rey goblin me encerr\xF3 aqu\xED hace m\xE1s de
+      cincuenta a\xF1os, ya ni siquiera recuerdo la luz del sol... "
+    englishText: 'PRISONER: The evil goblin kin lockit me here more than fity years
+      ago.'
   - key: F1_H_03
-    text: "H\xC9ROE: Pero si he venido a\u2026"
-    englishText: "HERO: But I came here for\u2026"
+    text: "H\xC9ROE: Pues sus d\xEDas de cautiverio han terminado, anciano. \xA1Vuele
+      libre!"
+    englishText: 'HERO: Your captivity days are over, elderly man. Fly free!'
   - key: F1_Pr_04
-    text: "PRISIONERO:  No, si ya s\xE9 a lo que ha venido, a por el cetrito ese,
-      \xBFeh? "
-    englishText: 'PRISONER: A know exactly why ye came. Ye are here for thon wee
-      scepter, am A richt?'
-  - key: F1_H_04
-    text: "H\xC9ROE: S\xED, el cetro del Rey Ca\u2026"
-    englishText: "HERO: Yes, de scentre of the f\u2026"
-  - key: F1_Pr_05_01
-    text: "PRISIONERO: \xA1CABR\xD3N! \xBFQui\xE9n lo ha votado? "
-    englishText: 'PRISIONERO: '
-  - key: F1_Pr_05_02
-    text: "\xA1Yo desde luego no, que estaba aqu\xED!"
-    englishText: Wha votit for him? A surely didn't, A wis trappit here!!
-  - key: F1_H_05
-    text: "HERO: Mire, \xBFquiere que lo rescate o no?"
-    englishText: 'HERO: You want me to rescue you or not?'
-  - key: F1_Pr_06
-    text: 'PRISIONERO: Por favor y gracias.'
-    englishText: 'PRISIONER: Pretty please. Thank ye.'
+    text: "PRISIONERO:  \xA1Que los dioses te bendigan!"
+    englishText: 'PRISONER: Gods bless ye!'
   - key: F2_H01
     text: "H\xC9ROE: \u2026 Y as\xED fue como pas\xF3."
     englishText: "HERO: \u2026 and that's what it happened"
@@ -412,17 +381,18 @@ MonoBehaviour:
     text: 'coger piedritas brillantes, dejarse el culete hecho un colador, '
     englishText: "Take shiny flat lil\u2019 rockies. Hit spikies with his bum-bum. "
   - key: F3_Grub04_03
-    text: "matar al amigo de Grublin\u2026 Ya ves, un martes. "
-    englishText: "Stab Grublin\u2019s friend\u2026 Ya\u2019 know, Tuesday evening."
+    text: "Intentar apu\xF1alar al amigo de Grublin\u2026 Ya ves, un martes. "
+    englishText: "Try to stab Grublin\u2019s friend\u2026 Ya\u2019 know, Tuesday
+      evening."
   - key: F3_Au04
-    text: "AUDITOR: Mmm\u2026 \xBFsolo a un amigo?"
-    englishText: "AUDITOR:  Hum\u2026 only one friend?"
+    text: "AUDITOR: Mmm\u2026 \xBFtu amigo?"
+    englishText: "AUDITOR:  Hum\u2026 your friend?"
   - key: F3_Grub05_01
     text: "Grublin: S\xED, al \xFAnico amigo de Grublin, Grooblin. Pobre Grooblin. "
     englishText: "GRUBLIN: Yes, Grublin\u2019s only friend, Grooblin. Poor Grooblin. "
   - key: F3_Grub05_02
-    text: "Le deb\xEDa cinco piedras brillantes a Grublin\u2026 ese cabr\xF3n\u2026"
-    englishText: "He owed Grublin five shiny rockies, that bastard\u2026 "
+    text: "Le debe cinco piedras brillantes a Grublin\u2026 ese cabr\xF3n\u2026"
+    englishText: "He owe Grublin five shiny rockies, that bastard\u2026 "
   - key: F3_Au05
     text: "AUDITOR: Mmm\u2026 interesante\u2026 Gracias, Grublin."
     englishText: "AUDITOR: Mmh\u2026 interesting\u2026  Thank you, Grublin."
@@ -432,3 +402,41 @@ MonoBehaviour:
   - key: F3_Au06
     text: "AUDITOR: \u2026"
     englishText: "AUDITOR: \u2026 "
+  - key: F3_AUgob_01
+    text: 'AUDITOR: Buenas, vengo del Departamento de Asuntos Heroicos.'
+    englishText: 'AUDITOR: Hello, I am from the Department of Heroic Affairs.'
+  - key: F3_Gobcotilla_01
+    text: "GOBLIN: Uuuhh, \xBFy tienes chismes heroicos? Puedes hablar con el goblin
+      Metiche."
+    englishText: 'GOBLIN: Uuuhh, you had a juicy affair? You can trust Nosey the
+      goblin.'
+  - key: F3_AUgob_02
+    text: 'AUDITOR: No, me refiero que REPRESENTO al Departamento de Asuntos Heroicos'
+    englishText: 'AUDITOR: No, I mean, I come FROM the Department of Heroic Affairs.'
+  - key: F3_Gobcotilla_02
+    text: "GOBLIN: No te preocupes, tus chismes est\xE1n a salvo conmigo, nadie sabr\xE1
+      sobre esos asuntillos tuyos... jijiji"
+    englishText: 'GOBLIN: Don''t worry, your secret is safe with me, no one will
+      know about your heroic affair... hehehe'
+  - key: F3_AUescon_01
+    text: 'AUDITOR: Buenas, represento al Departamento de Asuntos Heroicos'
+    englishText: 'AUDITOR: Hello, I come from the Department of Heroic Affairs'
+  - key: F3_Gobescon_01
+    text: 'GOBLIN: SSSSHHHH... Estoy jugando al escondite...'
+    englishText: 'GOBLIN: SSSSSHHHH... I''m playing hide-and-seek...'
+  - key: F3_AUescon_02
+    text: "AUDITOR: Quer\xEDa preguntarle sobre un h\xE9roe que vino ayer..."
+    englishText: "AUDITOR: Quer\xEDa preguntarle sobre un h\xE9roe que vino ayer..."
+  - key: F3_Gobescon_02
+    text: "GOBLIN: \xA1Uy, s\xED, s\xED! Pero no te voy a decir donde est\xE1...
+      No soy un chivato."
+    englishText: 'GOBLIN: Yes-yes! Knighty-Knight came, but I won''t tell you where
+      he is... I''m no snitch!'
+  - key: F3_AUescon_03
+    text: "AUDITOR: No estoy jugando a ning\xFAn juego."
+    englishText: 'AUDITOR: I''m not playing any game.'
+  - key: F3_Gobescon_03
+    text: "GOBLIN: Eso es lo que dir\xEDa alguien que est\xE1 jugando al escondite...
+      \xA1PUES NO ME VAS A PILLAR!"
+    englishText: 'GOBLIN: That''s something someone who''s playing would say... WELL,
+      YOU WON''T CATCH ME!'

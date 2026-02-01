@@ -42,25 +42,16 @@ F1_Hgob_S03,¡Volved al infierno del que salisteis!,Come back to hell you came f
 F1_Hgob_F01,No debí subestimarlos.,I shouldn't have underestimated them.
 F1_Hgob_F02,A veces se me olvida lo escurridizos que son.,Sometimes I forget how slippery they are.
 F1_Hgob_F03,Eso dolió.,"Ouch, that hurt."
+,,
 F1_Pr_01,PRISIONERO: ¡Eh! ¿Qué pasa aquí? ¿Tú quién eres?  ,PRISONER: Oi! wha's thare? wha are ye?
 F1_H_01_01,"HÉROE: ¡Saludos, amable prisionero! ","HERO: Greetings, friendly prisoner! "
 F1_H_01_02,He venido a recorrer esta mazmorra y poner fin al malvado reino del terror del rey Goblin que aquí mora. ,I came to go down this dungeon and put an end to the reign of terror of the Goblin king! 
-F1_H_01_03,Daré por finalizado su vil régimen en cuanto mi hoja atraviese su…,I will end up his evil regime the moment my sword…
-F1_Pr_02_01,"PRISIONERO: ¡Que sí, que sí, que eres un héroe muy guay! ¡Ya era hora, eh! ","PRISONER: Ay, ay, we know, ye are a cool knicht! it wis aboot time, huh! "
-F1_Pr_02_02,"Mucho discursito, mucho discursito, pero aquí rescatar poquito, ¿eh?  ","aw talk an na action, huh?"
-F1_Pr_02_03,"Llevo siglos aquí, rodeado de malolientes goblins. "," A'v been here for ages, surroundit bi pongy goblins. "
-F1_Pr_02_04,En cuanto salga voy a poner una queja en el Departamento de Asuntos Heroicos…,"The moment A put a foot ootside this dungeon, A am gaun'ae complaint tae "
-F1_Pr_02_05,,the department o heroic affairs…
-F1_H_02,"HÉROE: No se preocupe, voy a rescatarle y…","HERO: Do not fear, I am going to take you out of this…"
-F1_Pr_03_01,"PRISIONERO: Anda, vaya, meenos mal, el señorito ha venido a rescatarme, qué bien. ","PRISONER: Oh, wow, lucky me this knicht i shiny armour has decidit tae rescue me. "
-F1_Pr_03_02,"Solo han tardado CINCUENTA AÑOS en enviarme a alguien, ¿en esto se van mis impuestos? Esto es indignante…",It  only took fifty years tae send someone. Is here where aw ma taxes are gang? Outrageous!
-F1_H_03,HÉROE: Pero si he venido a…,HERO: But I came here for…
-F1_Pr_04,"PRISIONERO:  No, si ya sé a lo que ha venido, a por el cetrito ese, ¿eh? ","PRISONER: A know exactly why ye came. Ye are here for thon wee scepter, am A richt?"
-F1_H_04,"HÉROE: Sí, el cetro del Rey Ca…","HERO: Yes, de scentre of the f…"
-F1_Pr_05_01,PRISIONERO: ¡CABRÓN! ¿Quién lo ha votado? ,PRISIONERO: 
-F1_Pr_05_02,"¡Yo desde luego no, que estaba aquí!","Wha votit for him? A surely didn't, A wis trappit here!!"
-F1_H_05,"HERO: Mire, ¿quiere que lo rescate o no?",HERO: You want me to rescue you or not?
-F1_Pr_06,PRISIONERO: Por favor y gracias.,PRISIONER: Pretty please. Thank ye.
+F1_H_01_03,Daré por finalizado su vil régimen con mi filo certero. ,I will end up his evil regime with my mighty sword.
+F1_Pr_01,PRISIONERO: ¡Por fin! ¡Llevo décadas esperando a un héroe como tú!,PRISONER: Finally! A have waitit an eternity for a hero such as ye!
+F1_H_02,"HÉROE: No se preocupe, he venido a rescatarle. ¿Qué le pasó?","HERO: Do not fear, I came to rescue you. What happened?"
+F1_Pr_02_01,"PRISIONERO: El malvado rey goblin me encerró aquí hace más de cincuenta años, ya ni siquiera recuerdo la luz del sol... ",PRISONER: The evil goblin kin lockit me here more than fity years ago.
+F1_H_03,"HÉROE: Pues sus días de cautiverio han terminado, anciano. ¡Vuele libre!","HERO: Your captivity days are over, elderly man. Fly free!"
+F1_Pr_04,PRISIONERO:  ¡Que los dioses te bendigan!,PRISONER: Gods bless ye!
 F2_H01,HÉROE: … Y así fue como pasó.,HERO: … and that's what it happened
 F2_F01,FUNCIONARIO: Ahá… Y así consiguió el Scepter of the Fallen King.,EMPLOYEE: Aha… That's how you got the Scepter of the Fallen King.
 F2_H02,HÉROE: Así es.,HERO: That's right.
@@ -119,10 +110,20 @@ F3_Grub03_05,"Me gustan los pinchi-pinchos, ¿sabes?","Me likey stabby stab, ya�
 F3_Au03,AUDITOR: ¿Y qué hizo?,AUDITOR: What did he do?
 F3_Grub04_01,GRUBLIN: No mucho. Cosas de héroes: ,GRUBLIN: Not much. Usual hero stuff. 
 F3_Grub04_02,"coger piedritas brillantes, dejarse el culete hecho un colador, ",Take shiny flat lil’ rockies. Hit spikies with his bum-bum. 
-F3_Grub04_03,"matar al amigo de Grublin… Ya ves, un martes. ","Stab Grublin’s friend… Ya’ know, Tuesday evening."
-F3_Au04,AUDITOR: Mmm… ¿solo a un amigo?,AUDITOR:  Hum… only one friend?
+F3_Grub04_03,"Intentar apuñalar al amigo de Grublin… Ya ves, un martes. ","Try to stab Grublin’s friend… Ya’ know, Tuesday evening."
+F3_Au04,AUDITOR: Mmm… ¿tu amigo?,AUDITOR:  Hum… your friend?
 F3_Grub05_01,"Grublin: Sí, al único amigo de Grublin, Grooblin. Pobre Grooblin. ","GRUBLIN: Yes, Grublin’s only friend, Grooblin. Poor Grooblin. "
-F3_Grub05_02,Le debía cinco piedras brillantes a Grublin… ese cabrón…,"He owed Grublin five shiny rockies, that bastard… "
+F3_Grub05_02,Le debe cinco piedras brillantes a Grublin… ese cabrón…,"He owe Grublin five shiny rockies, that bastard… "
 F3_Au05,"AUDITOR: Mmm… interesante… Gracias, Grublin.","AUDITOR: Mmh… interesting…  Thank you, Grublin."
 F3_Grub06,GRUBLIN: No hay de qué. ¡Que vaya bien el rasqui-rasqui!,"GRUBLIN: No prob, feet smeller. Good luck smelling!"
 F3_Au06,AUDITOR: …,AUDITOR: … 
+F3_AUgob_01,"AUDITOR: Buenas, vengo del Departamento de Asuntos Heroicos.","AUDITOR: Hello, I am from the Department of Heroic Affairs."
+F3_Gobcotilla_01,"GOBLIN: Uuuhh, ¿y tienes chismes heroicos? Puedes hablar con el goblin Metiche.","GOBLIN: Uuuhh, you had a juicy affair? You can trust Nosey the goblin."
+F3_AUgob_02,"AUDITOR: No, me refiero que REPRESENTO al Departamento de Asuntos Heroicos","AUDITOR: No, I mean, I come FROM the Department of Heroic Affairs."
+F3_Gobcotilla_02,"GOBLIN: No te preocupes, tus chismes están a salvo conmigo, nadie sabrá sobre esos asuntillos tuyos... jijiji","GOBLIN: Don't worry, your secret is safe with me, no one will know about your heroic affair... hehehe"
+F3_AUescon_01,"AUDITOR: Buenas, represento al Departamento de Asuntos Heroicos","AUDITOR: Hello, I come from the Department of Heroic Affairs"
+F3_Gobescon_01,GOBLIN: SSSSHHHH... Estoy jugando al escondite...,GOBLIN: SSSSSHHHH... I'm playing hide-and-seek...
+F3_AUescon_02,AUDITOR: Quería preguntarle sobre un héroe que vino ayer...,AUDITOR: Quería preguntarle sobre un héroe que vino ayer...
+F3_Gobescon_02,"GOBLIN: ¡Uy, sí, sí! Pero no te voy a decir donde está... No soy un chivato.","GOBLIN: Yes-yes! Knighty-Knight came, but I won't tell you where he is... I'm no snitch!"
+F3_AUescon_03,AUDITOR: No estoy jugando a ningún juego.,AUDITOR: I'm not playing any game.
+F3_Gobescon_03,GOBLIN: Eso es lo que diría alguien que está jugando al escondite... ¡PUES NO ME VAS A PILLAR!,"GOBLIN: That's something someone who's playing would say... WELL, YOU WON'T CATCH ME!"
