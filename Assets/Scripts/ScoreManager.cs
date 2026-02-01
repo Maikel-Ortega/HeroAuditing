@@ -86,12 +86,15 @@ public class ScoreManager : MonoBehaviour
 
     void AppearTextAnimation(TextMeshProUGUI t)
     {
-        t.DOFade(1, 0.1f);
-        t.rectTransform.DOScale(Vector3.one * 1, 0.5f);
+        t.DOFade(1, 0.2f);
+        t.rectTransform.localScale = Vector3.one * 0.1f;
+        t.rectTransform.DOScale(Vector3.one * 1, 0.6f).SetEase(Ease.OutBack);
     }
 
     IEnumerator ScoreAnimation()
     {
+        yield return new WaitForSeconds(1f);
+
         AppearTextAnimation(markedContradictionsText);
         yield return new WaitForSeconds(1f);
 

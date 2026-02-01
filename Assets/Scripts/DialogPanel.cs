@@ -17,8 +17,12 @@ public class DialogPanel : MonoBehaviour
         }
     }
 
+    string lastLine = "";
     void UpdateText(string key)
     {
+        AudioManager.Stop(lastLine);
+        AudioManager.Play(key,false);
+        lastLine = key;
         textMeshProUGUI.text = DialogManager.Instance.GetText(key);
     }
 
@@ -57,6 +61,7 @@ public class DialogPanel : MonoBehaviour
             waiting = true;
             i++;
         }
+        AudioManager.Stop(lastLine);
 
         OnDialogEnds();
     }
