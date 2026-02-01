@@ -1,3 +1,4 @@
+using StarterAssets;
 using System.Collections;
 using UnityEngine;
 
@@ -59,6 +60,8 @@ public class GameUI : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
 
         interludeFinished = true;
+
+        FindFirstObjectByType<StarterAssetsInputs>().ClearInputs();
     }
 
     public bool HasInterludeEnded()

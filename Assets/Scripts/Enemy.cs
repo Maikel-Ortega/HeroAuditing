@@ -80,6 +80,12 @@ public class Enemy : MonoBehaviour, IContradictionItem
 
     void Update()
     {
+        if (DialogManager.Instance.dialogRunning)
+        {
+            agent.isStopped = true;
+            return;
+        }
+
         if (currentState == GoblinState.IDLE)
         {
             agent.isStopped = true;

@@ -46,6 +46,12 @@ namespace StarterAssets
             MainActionInput(value.isPressed);
         }
 
+		public void ClearInputs()
+		{
+			jump = false;
+			mainAction = false;
+		}
+
         public void OnInteract(InputValue value)
         {
             IntaractInput(value.isPressed);

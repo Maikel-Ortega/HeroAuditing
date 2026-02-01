@@ -1,6 +1,7 @@
 using System.Buffers;
 using System.Collections.Generic;
 using NUnit.Framework;
+using StarterAssets;
 using UnityEngine;
 using static GameFSM;
 
@@ -16,6 +17,8 @@ public class GamePhaseManager : MonoBehaviour
     public GameObject heroGameObject;
     public GameObject auditorGameObject;
     public GameObject resolutionPanelGameObject;
+
+    public ScriptableDialog interludeDialog;
 
     private void Start()
     {
@@ -214,19 +217,22 @@ public class GameFSM
         public override void OnEnter(GameFSM fsm)
         {
             GameUI.Instance.ShowInterludeUI();
+
+            DialogManager.Instance.LaunchDialog(fsm.owner.interludeDialog);
         }
 
         public override void OnUpdate(GameFSM fsm, float deltaTime)
         {
             base.OnUpdate(fsm, deltaTime);
 
-            if (GameUI.Instance.HasInterludeEnded())
+            if (!DialogManager.Instance.dialogRunning)
                 fsm.ChangeState(fsm.owner.st_Auditor);
         }
 
         public override void OnExit(GameFSM fsm)
         {
             base.OnExit(fsm);
+            GameObject.FindFirstObjectByType<StarterAssetsInputs>().ClearInputs();
         }
     }
     #endregion
