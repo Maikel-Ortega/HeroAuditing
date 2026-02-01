@@ -162,6 +162,8 @@ public class GameFSM
                 if (gob.entityData.blackboard.GetBool("ALIVE"))
                     gob.SetDialogueState(); 
             }
+
+            GameObject.FindAnyObjectByType<GameUI>().StartAuditorMission();
         }
 
         public override void OnUpdate(GameFSM fsm, float deltaTime)

@@ -1,11 +1,18 @@
+using DG.Tweening;
 using StarterAssets;
 using System;
 using System.Collections;
+using TMPro;
 using UnityEngine;
 
 public class GameUI : MonoBehaviour
 {
     public static GameUI Instance { get; private set; }
+    public RectTransform titleTop;
+    public RectTransform titleBot;
+
+    public RectTransform auditTitleTop;
+    public RectTransform auditTitleBot;
 
     bool interludeFinished;
 
@@ -16,17 +23,45 @@ public class GameUI : MonoBehaviour
 
     void Start()
     {
-        // StartCoroutine(ShowMission());
+        StartCoroutine(ShowMission());
     }
+
+    public void StartAuditorMission()
+    {
+        StartCoroutine(ShowAuditorMission());
+    }
+
 
     IEnumerator ShowMission()
     {
-        transform.Find("Mission").gameObject.SetActive(true);
-        transform.Find("DialogueBox").gameObject.SetActive(false);
-        
-        yield return new WaitForSeconds(4);
+        float entrySeconds = 0.35f;
+        float entryDelay = 0.5f;
+        titleTop.DOAnchorPosY(40, entrySeconds).SetEase(Ease.InCubic).OnComplete(() => titleBot.DOAnchorPosY(440, entrySeconds).SetDelay(entryDelay)).SetDelay(entryDelay);
 
-        transform.Find("Mission").gameObject.SetActive(false);
+        
+        yield return new WaitForSeconds(2);
+
+        titleTop.GetComponentInChildren<TextMeshProUGUI>().DOFade(0f, 0.5f);
+        titleBot.GetComponentInChildren<TextMeshProUGUI>().DOFade(0f, 0.5f);
+
+    }
+
+    IEnumerator ShowAuditorMission()
+    {
+        float entrySeconds = 0.35f;
+        float entryDelay = 0.5f;
+
+        float TopAnchorPosY = 40;
+        float BotAnchorPosY = 440;
+
+        auditTitleTop.DOAnchorPosY(TopAnchorPosY, entrySeconds).SetEase(Ease.InCubic).OnComplete(() => auditTitleBot.DOAnchorPosY(BotAnchorPosY, entrySeconds).SetDelay(entryDelay)).SetDelay(entryDelay);
+
+
+        yield return new WaitForSeconds(2);
+
+        auditTitleTop.GetComponentInChildren<TextMeshProUGUI>().DOFade(0f, 0.5f);
+        auditTitleBot.GetComponentInChildren<TextMeshProUGUI>().DOFade(0f, 0.5f);
+
     }
 
     IEnumerator ShowTransition()

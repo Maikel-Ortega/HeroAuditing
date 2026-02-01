@@ -6,8 +6,13 @@ public class HeroTrigger : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            GameObject.FindAnyObjectByType<GamePhaseManager>().EndHeroPhase();
-            gameObject.SetActive(false);
+            TriggerEndPhase();
         }
+    }
+
+    public void TriggerEndPhase()
+    {
+        GameObject.FindAnyObjectByType<GamePhaseManager>().EndHeroPhase();
+        gameObject.SetActive(false);
     }
 }

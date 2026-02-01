@@ -336,7 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc5b04ade2699894a882c74f577cddf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damageable
-  MAX_HP: 3
+  MAX_HP: 10
   OnDeath:
     m_PersistentCalls:
       m_Calls:

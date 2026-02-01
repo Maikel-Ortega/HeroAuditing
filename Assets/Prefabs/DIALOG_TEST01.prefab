@@ -152,4 +152,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b03a777ad98caf84b89a3688984d89ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogLauncherComponent
-  dialogReference: {fileID: 11400000, guid: 960e4afbcb0370d4a94a01db132ed12e, type: 2}
+  dialogReference: {fileID: 11400000, guid: 68f09c2479bf3ec42a0c5e8e5afd2032, type: 2}
