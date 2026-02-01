@@ -95,10 +95,10 @@ public class GameUI : MonoBehaviour
 
         transform.Find("TransitionUI/Document/DocumentTextEs").gameObject.SetActive(false);
         transform.Find("TransitionUI/Document/DocumentTextEn").gameObject.SetActive(false);
-        // if(DialogManager.englishText)
-            // transform.Find("TransitionUI/Document/DocumentTextEn").gameObject.SetActive(true);
-        // else
-            // transform.Find("TransitionUI/Document/DocumentTextEs").gameObject.SetActive(true);
+        if(DialogManager.englishText)
+            transform.Find("TransitionUI/Document/DocumentTextEn").gameObject.SetActive(true);
+        else
+            transform.Find("TransitionUI/Document/DocumentTextEs").gameObject.SetActive(true);
     }
 
     public void EndInterlude()
