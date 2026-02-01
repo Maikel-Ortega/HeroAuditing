@@ -50,11 +50,15 @@ public class ContradictionAbility : MonoBehaviour
     {
         GameObject go = Instantiate(contradictionMarkerPrefab,pos, Quaternion.identity);
         deployedMarkers.Add(go);
+        AudioManager.Play("SFX FlagIn", false);
+
     }
 
     public void DeleteMarker(GameObject go)
     {
         deployedMarkers.Remove(go);
+        AudioManager.Play("SFX FlagOut", false);
+
         Destroy(go);
     }
 
