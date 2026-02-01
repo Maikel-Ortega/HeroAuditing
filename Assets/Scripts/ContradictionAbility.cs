@@ -1,7 +1,5 @@
 using System.Collections.Generic;
 using NUnit.Framework;
-using UnityEditor.PackageManager;
-using UnityEditor.Rendering;
 using UnityEngine;
 
 public class ContradictionAbility : MonoBehaviour
