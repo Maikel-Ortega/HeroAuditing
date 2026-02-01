@@ -5,8 +5,10 @@ public class LocalizedTextmeshPro : MonoBehaviour
 {
     public string LocalizationKey;
 
-    private void OnEnable()
+    private void Start()
     {
-        GetComponent<TextMeshProUGUI>().SetText(DialogManager.Instance.GetText(LocalizationKey));
+        TextMeshProUGUI tmPro = GetComponent<TextMeshProUGUI>();
+        string localized = DialogManager.Instance.GetText(LocalizationKey);
+        tmPro.SetText(localized);
     }
 }

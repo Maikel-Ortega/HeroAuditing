@@ -953,7 +953,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Misi\xF3n: Recupera el Cetro del Rey Ca\xEDdo.\r\n"
+  m_text: "Misi\xF3n: TEXT TEXT"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 638a10c5d9e12054d9ded7f7fa9d7f3a, type: 2}
   m_sharedMaterial: {fileID: 8807961615337594816, guid: 638a10c5d9e12054d9ded7f7fa9d7f3a, type: 2}

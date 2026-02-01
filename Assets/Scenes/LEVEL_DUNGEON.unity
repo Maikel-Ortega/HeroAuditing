@@ -14054,10 +14054,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8438705537827955865, guid: 8f937385922faea44b1875daf3718c44, type: 3}
-      propertyPath: m_text
-      value: "Misi\xF3n: TEXT TEXT"
-      objectReference: {fileID: 0}
     - target: {fileID: 8918111341119444951, guid: 8f937385922faea44b1875daf3718c44, type: 3}
       propertyPath: m_Name
       value: DungeonCanvas

@@ -124,6 +124,9 @@ public class GameFSM
             Debug.Log("Start Hero Phase");
             fsm.owner.auditorGameObject.SetActive(false);
             fsm.owner.heroGameObject.SetActive(true);
+            AudioManager.Stop("Hero");
+
+            AudioManager.Play("HERO",true);
 
         }
 
@@ -141,6 +144,7 @@ public class GameFSM
         {
             base.OnExit(fsm);
             fsm.owner.heroGameObject.SetActive(false);
+            AudioManager.Stop("HERO");
 
         }
     }
@@ -164,6 +168,8 @@ public class GameFSM
             }
 
             GameObject.FindAnyObjectByType<GameUI>().StartAuditorMission();
+            AudioManager.Play("Auditor", true);
+
         }
 
         public override void OnUpdate(GameFSM fsm, float deltaTime)
@@ -183,6 +189,8 @@ public class GameFSM
         public override void OnExit(GameFSM fsm)
         {
             base.OnExit(fsm);
+            AudioManager.Stop("Auditor");
+
         }
     }
 
@@ -196,6 +204,8 @@ public class GameFSM
             fsm.owner.resolutionPanelGameObject.SetActive(true);
 
             Cursor.lockState = CursorLockMode.None;
+            AudioManager.Play("Puntuacion", true);
+
         }
 
         public override void OnUpdate(GameFSM fsm, float deltaTime)
