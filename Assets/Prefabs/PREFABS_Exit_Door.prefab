@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4678476662966319702}
   - component: {fileID: 4895871027556139046}
   - component: {fileID: 4401806566000876414}
+  - component: {fileID: 9001231231128186885}
   m_Layer: 0
   m_Name: PREFABS_Exit_Door
   m_TagString: Untagged
@@ -113,3 +114,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 00ecfa272f0870d4395265927b549928, type: 2}
+--- !u!114 &9001231231128186885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8273054938485603116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f23ed8bc394024418fe60d3636718c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'

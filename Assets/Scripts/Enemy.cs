@@ -17,7 +17,7 @@ public class Enemy : MonoBehaviour, IContradictionItem
     public GameEntityDataComponent entityData;
     public GameObject aliveGraphics;
     public GameObject deadGraphics;
-
+    public GameObject dialogInteraction;
     const string stateKey_Alive = "ALIVE";
 
     [Space(10)]
@@ -125,6 +125,7 @@ public class Enemy : MonoBehaviour, IContradictionItem
     public void SetDialogueState()
     {
         currentState = GoblinState.DIALOGUE;
+        dialogInteraction.SetActive(true);
         agent.isStopped = true;
         animator.SetFloat("Movement", 0);
     }

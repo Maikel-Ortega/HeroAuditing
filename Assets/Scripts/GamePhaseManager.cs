@@ -172,6 +172,13 @@ public class GameFSM
                     gob.SetDialogueState(); 
             }
 
+            foreach (var go in GameObject.FindObjectsByType<DeactivateOnAuditorPhase>(FindObjectsSortMode.InstanceID))
+            {
+                go.gameObject.SetActive(false); 
+            }
+            
+
+
             GameObject.FindAnyObjectByType<GameUI>().StartAuditorMission();
             AudioManager.Play("Auditor", true);
 
