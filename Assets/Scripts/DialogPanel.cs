@@ -20,7 +20,7 @@ public class DialogPanel : MonoBehaviour
     string lastLine = "";
     void UpdateText(string key)
     {
-        AudioManager.Stop(lastLine);
+        AudioManager.StopOneshot();
         AudioManager.Play(key,false);
         lastLine = key;
         textMeshProUGUI.text = DialogManager.Instance.GetText(key);

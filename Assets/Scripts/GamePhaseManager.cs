@@ -128,7 +128,8 @@ public class GameFSM
             Debug.Log("Start Hero Phase");
             fsm.owner.auditorGameObject.SetActive(false);
             fsm.owner.heroGameObject.SetActive(true);
-            AudioManager.Stop("Hero");
+            AudioManager.Stop("HERO");
+            AudioManager.Stop("Menu");
 
             AudioManager.Play("HERO",true);
 
