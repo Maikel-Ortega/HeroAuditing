@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 5533139631639781610}
   - component: {fileID: 4129218503329690045}
   - component: {fileID: 6324364404266127465}
+  - component: {fileID: -1885341724516284745}
   m_Layer: 0
   m_Name: SpikeTrap
   m_TagString: Untagged
@@ -181,6 +182,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: -1885341724516284745}
+        m_TargetAssemblyTypeName: AudioOneshotLauncher, Assembly-CSharp
+        m_MethodName: PlayOneShot
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SFX Trap
           m_BoolArgument: 0
         m_CallState: 2
   entityData: {fileID: 5430401403184332603}
@@ -263,6 +276,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-1885341724516284745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4883951895953856827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d967c81ae306dd44cb115fa9fdfa1f6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioOneshotLauncher
 --- !u!1 &5452518546421492809
 GameObject:
   m_ObjectHideFlags: 0
