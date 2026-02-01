@@ -52,7 +52,7 @@ F1_H_02,"HÉROE: No se preocupe, he venido a rescatarle. ¿Qué le pasó?","HERO
 F1_Pr_03,"PRISIONERO: El malvado rey goblin me encerró aquí hace más de cincuenta años, ya ni siquiera recuerdo la luz del sol... ",PRISONER: The evil goblin kin lockit me here more than fity years ago.
 F1_H_03,"HÉROE: Pues sus días de cautiverio han terminado, anciano. ¡Vuele libre!","HERO: Your captivity days are over, elderly man. Fly free!"
 F1_Pr_04,PRISIONERO:  ¡Que los dioses te bendigan!,PRISONER: Gods bless ye!
-F2_H01,HÉROE: … Y así fue como pasó.,HERO: … and that's what it happened
+F2_H01,HÉROE: … Y así fue como pasó.,HERO: … and that's EXACTLY how it happened
 F2_F01,FUNCIONARIO: Ahá… Y así consiguió el Scepter of the Fallen King.,EMPLOYEE: Aha… That's how you got the Scepter of the Fallen King.
 F2_H02,HÉROE: Así es.,HERO: That's right.
 F2_F02,FUNCIONARIO: Y por eso viene a reclamar su licencia de héroe.,EMPLOYEE: And that is why you are here to claim for your hero licence.
@@ -123,7 +123,7 @@ F3_AUgob_02,"AUDITOR: No, me refiero que REPRESENTO al Departamento de Asuntos H
 F3_Gobcotilla_02,"GOBLIN: No te preocupes, tus chismes están a salvo conmigo, nadie sabrá sobre esos asuntillos tuyos... jijiji","GOBLIN: Don't worry, your secret is safe with me, no one will know about your heroic affair... hehehe"
 F3_AUescon_01,"AUDITOR: Buenas, represento al Departamento de Asuntos Heroicos","AUDITOR: Hello, I come from the Department of Heroic Affairs"
 F3_Gobescon_01,GOBLIN: SSSSHHHH... Estoy jugando al escondite...,GOBLIN: SSSSSHHHH... I'm playing hide-and-seek...
-F3_AUescon_02,AUDITOR: Quería preguntarle sobre un héroe que vino ayer...,AUDITOR: Quería preguntarle sobre un héroe que vino ayer...
+F3_AUescon_02,AUDITOR: Quería preguntarle sobre un héroe que vino ayer...,AUDITOR: I wanted to ask you about a hero that came yesterday...
 F3_Gobescon_02,"GOBLIN: ¡Uy, sí, sí! Pero no te voy a decir donde está... No soy un chivato.","GOBLIN: Yes-yes! Knighty-Knight came, but I won't tell you where he is... I'm no snitch!"
 F3_AUescon_03,AUDITOR: No estoy jugando a ningún juego.,AUDITOR: I'm not playing any game.
 F3_Gobescon_03,GOBLIN: Eso es lo que diría alguien que está jugando al escondite... ¡PUES NO ME VAS A PILLAR!,"GOBLIN: That's something someone who's playing would say... WELL, YOU WON'T CATCH ME!"
