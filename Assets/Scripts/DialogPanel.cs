@@ -50,7 +50,9 @@ public class DialogPanel : MonoBehaviour
         while(i<dialogAsset.dialogIDs.Count)
         {
             UpdateText(dialogAsset.dialogIDs[i]);
-            while(waiting)
+            yield return new WaitForSeconds(0.5f);
+
+            while (waiting)
             {
                 if(Input.GetMouseButtonDown(0))
                 {
