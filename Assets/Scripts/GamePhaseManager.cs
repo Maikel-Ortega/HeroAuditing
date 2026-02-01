@@ -35,6 +35,10 @@ public class GamePhaseManager : MonoBehaviour
     {
         fsm.ChangeState(st_Interlude);
     }
+    public void EndInterludePhase()
+    {
+        fsm.ChangeState(st_Auditor);
+    }
 
     public void EndAuditorPhase()
     {
@@ -239,7 +243,10 @@ public class GameFSM
             base.OnUpdate(fsm, deltaTime);
 
             if (!DialogManager.Instance.dialogRunning)
-                fsm.ChangeState(fsm.owner.st_Auditor);
+            {
+                GameUI.Instance.ShowDocumentUI();
+                // fsm.ChangeState(fsm.owner.st_Auditor);
+            }
         }
 
         public override void OnExit(GameFSM fsm)
