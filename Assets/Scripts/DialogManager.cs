@@ -20,7 +20,7 @@ public class DialogManager : MonoBehaviour
     }
     public bool dialogRunning = false;
 
-    public bool englishText;
+    public static bool englishText;
     public string GetText(string key)
     {
         return textParser.GetTextByKey(key, englishText);
